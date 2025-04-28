@@ -1,0 +1,1 @@
+An example training pipeline stitched together from PyTorch's official tutorial: https://pytorch.org/tutorials/recipes/recipes/amp_recipe.html

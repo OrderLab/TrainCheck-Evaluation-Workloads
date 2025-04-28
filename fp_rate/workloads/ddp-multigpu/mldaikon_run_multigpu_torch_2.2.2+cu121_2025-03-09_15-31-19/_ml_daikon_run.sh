@@ -1,0 +1,1 @@
+python3 _ml_daikon_multigpu.py --batch_size 8 1 2

@@ -1,0 +1,9 @@
+*.log
+_traincheck_*
+traincheck_run*
+trace_*
+*.gz
+
+invariants*.json*
+
+*-ubyte*

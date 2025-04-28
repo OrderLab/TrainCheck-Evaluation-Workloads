@@ -1,0 +1,1 @@
+python main.py --cuda --epochs 2 --tied    # Train a tied LSTM on Wikitext-2 with CUDA.

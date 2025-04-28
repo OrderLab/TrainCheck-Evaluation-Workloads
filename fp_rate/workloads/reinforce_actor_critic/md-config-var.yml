@@ -1,0 +1,5 @@
+models_to_track:
+  - model
+modules_to_instr:
+  - torch
+pyscript: actor_critic.py

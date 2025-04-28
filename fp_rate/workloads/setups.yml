@@ -1,0 +1,29 @@
+training_setups:
+  - inputs:
+    - gcn
+  - inputs:
+    - gcn
+    - mnist
+    # - ddp-multigpu
+    - autocast
+  - inputs:
+    - gcn
+    - mnist
+    # - ddp-multigpu
+    - autocast
+    - vae
+    - gat
+validation_setups:
+  - dcgan
+  - mnist_forward_forward
+  - mnist_hogwild
+  - mnist_rnn
+  - regression
+  - reinforce_actor_critic
+  - reinforce_reinforce
+  - resnet18
+  - siamese_network
+  - time_sequence_prediction
+  - word_language_model_lstm
+  - word_language_model_transformer
+trace_collection_parallelism: 1

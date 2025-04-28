@@ -1,0 +1,1 @@
+python3 main.py --dummy --epochs 2 --batch-size 16
