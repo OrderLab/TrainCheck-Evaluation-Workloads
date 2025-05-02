@@ -230,7 +230,7 @@ def cleanup_trace_files():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run experiment for a class of models")
     parser.add_argument(
-        "--bench", type=str, choices=EXPS, default="CNN", help="Benchmark to run"
+        "--bench", type=str, choices=EXPS, default="workloads", help="Benchmark to run"
     )
     parser.add_argument(
         "-oe", "--overwrite-existing-results",
