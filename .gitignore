@@ -2,6 +2,7 @@
 _traincheck_*
 traincheck_run*
 trace_*
+checker_*
 *.gz
 
 invariants*.json*
