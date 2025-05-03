@@ -4,6 +4,7 @@ traincheck_run*
 trace_*
 checker_*
 *.gz
+__pycache__
 
 invariants*.json*
 
