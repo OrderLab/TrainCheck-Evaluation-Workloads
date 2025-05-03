@@ -1,0 +1,327 @@
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/TrainCheck/traincheck/instrumentor/dumper.py:279: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/TrainCheck/traincheck/instrumentor/tracer.py:436: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return global_wrapper(  # the wrapper cannot be invoked with named parameters as *args has to be after the named parameters
+Failed to get attribute device of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute filename of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_cuda of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_hpu of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+[GPU5] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU3] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU1] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU6] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU7] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU2] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU4] Epoch 0 | Batchsize: 8 | Steps: 4
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+[GPU0] Epoch 0 | Batchsize: 8 | Steps: 4
+Epoch 0 | Training checkpoint saved at checkpoint.pt
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+
+Program exited with code 0

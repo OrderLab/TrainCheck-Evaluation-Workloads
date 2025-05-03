@@ -4,26 +4,26 @@ training_setups:
   - inputs:
     - gcn
     - mnist
-    # - ddp-multigpu
+    - ddp-multigpu
     - autocast
   - inputs:
     - gcn
     - mnist
-    # - ddp-multigpu
+    - ddp-multigpu
     - autocast
     - vae
     - gat
 validation_setups:
   - dcgan
-  - mnist_forward_forward
-  - mnist_hogwild
-  - mnist_rnn
+  - mnist-forward-forward
+  - mnist-hogwild
+  - mnist-rnn
   - regression
-  - reinforce_actor_critic
-  - reinforce_reinforce
+  - reinforce-actor-critic
+  - reinforce-reinforce
   - resnet18
-  - siamese_network
-  - time_sequence_prediction
-  - word_language_model_lstm
-  - word_language_model_transformer
+  - siamese-network
+  - time-sequence-prediction
+  - word-language-model-lstm
+  - word-language-model-transformer
 trace_collection_parallelism: 1

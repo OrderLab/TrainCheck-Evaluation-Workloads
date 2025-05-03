@@ -1,0 +1,1 @@
+python3 _traincheck_multigpu.py --batch_size 8 1 2

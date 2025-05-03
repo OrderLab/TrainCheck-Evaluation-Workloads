@@ -1,6 +1,11 @@
 import torch
 import os
-os.environ['ML_DAIKON_OUTPUT_DIR'] = "/home/yuxuan/ml-daikon-input-programs/pytorch/ddp-multigpu/traincheck_run_multigpu_torch_2.2.2+cu121_2025-03-09_15-31-19"
+os.environ['ML_DAIKON_OUTPUT_DIR'] = "/home/yuxuan/TrainCheck-Evaluation-Workloads/fp_rate/workloads/trace_ddp-multigpu"
+
+from traincheck.utils import register_custom_excepthook
+if os.environ.get("ML_DAIKON_DEBUG") == "1":
+    print("ML_DAIKON_DEBUG is set to 1, registering custom excepthook")
+    register_custom_excepthook(True)
 
 import traincheck.config.config as general_config
 general_config.INSTR_DESCRIPTORS = False
@@ -34,6 +39,7 @@ import os
 from traincheck import annotate_stage
 from traincheck.instrumentor import meta_vars
 annotate_stage('init')
+id_optim = None
 
 def ddp_setup(rank, world_size):
     """
@@ -61,6 +67,8 @@ class Trainer:
         output = self.model(source)
         loss = torch.nn.BCEWithLogitsLoss()(output, targets)
         loss.backward()
+        global id_optim
+        assert id_optim == id(self.optimizer), 'Optimizer ID mismatch'
         self.optimizer.step()
 
     def _run_epoch(self, epoch):
@@ -100,9 +108,11 @@ class ToyModel(torch.nn.Module):
 def load_train_objs():
     train_set = MyTrainDataset(256)
     model = ToyModel()
-    model_sampler = VarSampler(model)
+    model_sampler = VarSampler(model, var_name='model')
     optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
     model_sampler.register_hook(optimizer)
+    global id_optim
+    id_optim = id(optimizer)
     return (train_set, model, optimizer)
 
 def prepare_dataloader(dataset: Dataset, batch_size: int):
@@ -113,6 +123,7 @@ def main(rank: int, world_size: int, save_every: int, total_epochs: int, batch_s
     ddp_setup(rank, world_size)
     meta_vars['_DATA_PARALLEL_RANK'] = rank
     (dataset, model, optimizer) = load_train_objs()
+    model_sampler = VarSampler(model, var_name='model')
     train_data = prepare_dataloader(dataset, batch_size)
     annotate_stage('training')
     trainer = Trainer(model, train_data, optimizer, rank, save_every)
