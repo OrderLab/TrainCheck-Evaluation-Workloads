@@ -1,6 +1,6 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 
-conda activate traincheck-test
+conda activate traincheck
 pip install -r requirements.txt
 
 # trace collection
