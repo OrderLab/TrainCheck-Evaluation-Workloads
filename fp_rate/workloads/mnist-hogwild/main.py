@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
     annotate_stage('training')
 
-    # ML-DAIKON's object tracking can't deal with multiprocessing yet
+    # TrainCheck's object tracking can't deal with multiprocessing yet
     
     # processes = []
     # for rank in range(args.num_processes):

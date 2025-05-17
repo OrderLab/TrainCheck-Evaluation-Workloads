@@ -1,6 +1,6 @@
 import argparse
 import os
-os.environ['ML_DAIKON_OUTPUT_DIR'] = "/home/yuxuan/gitrepos/ml-daikon-input-programs/pytorch/mnist/traincheck_run_main_torch_2.2.2+cu121_2025-03-09_15-26-48"
+os.environ['ML_DAIKON_OUTPUT_DIR'] = "/home/yuxuan/gitrepos/traincheck-input-programs/pytorch/mnist/traincheck_run_main_torch_2.2.2+cu121_2025-03-09_15-26-48"
 
 import traincheck.config.config as general_config
 general_config.INSTR_DESCRIPTORS = False

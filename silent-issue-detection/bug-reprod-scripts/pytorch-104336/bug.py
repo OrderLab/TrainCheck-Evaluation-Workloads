@@ -7,8 +7,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.nn.parallel import DistributedDataParallel as DDP
 
-from mldaikon import annotate_stage
-from mldaikon.instrumentor import meta_vars
+from traincheck import annotate_stage
+from traincheck.instrumentor import meta_vars
 
 class ToyModel(nn.Module):
     def __init__(self):

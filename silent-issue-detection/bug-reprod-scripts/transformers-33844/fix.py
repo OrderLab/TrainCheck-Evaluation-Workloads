@@ -4,10 +4,10 @@ from transformers import OPTForCausalLM, AutoTokenizer
 import transformers
 import torch
 
-import mldaikon
-from mldaikon import annotate_stage
+import traincheck
+from traincheck import annotate_stage
 
-mldaikon.instrumentor.tracer.DISABLE_WRAPPER = True
+traincheck.instrumentor.tracer.DISABLE_WRAPPER = True
 
 model_name = "facebook/opt-350m"
 model = OPTForCausalLM.from_pretrained(model_name, attn_implementation="flash_attention_2")
@@ -15,7 +15,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 fa2_used = False
 
-mldaikon.instrumentor.tracer.DISABLE_WRAPPER = False
+traincheck.instrumentor.tracer.DISABLE_WRAPPER = False
 
 
 def check_attention_layers(model):
@@ -62,9 +62,9 @@ def main():
 
     input_text = "This is a test sentence for OPT model."
 
-    mldaikon.instrumentor.tracer.DISABLE_WRAPPER = True
+    traincheck.instrumentor.tracer.DISABLE_WRAPPER = True
     input_ids = tokenizer(input_text, return_tensors="pt").input_ids.to(device)
-    mldaikon.instrumentor.tracer.DISABLE_WRAPPER = False
+    traincheck.instrumentor.tracer.DISABLE_WRAPPER = False
     labels = input_ids.clone()
     optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5)
 

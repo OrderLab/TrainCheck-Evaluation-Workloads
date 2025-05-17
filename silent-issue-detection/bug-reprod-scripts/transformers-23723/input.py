@@ -14,9 +14,9 @@ while it:
     break
 # release it
 
-import mldaikon
+import traincheck
 
-mldaikon.annotate_answer_start_token_ids(processor.tokenizer.additional_special_tokens_ids[1], include_start_token=True)
+traincheck.annotate_answer_start_token_ids(processor.tokenizer.additional_special_tokens_ids[1], include_start_token=True)
 
 input_features = processor(clip['audio']['array'], sampling_rate=clip['audio']['sampling_rate'], return_tensors="pt").input_features
 # Example of it not limiting generation to max_new_tokens when prompt_ids length too large 

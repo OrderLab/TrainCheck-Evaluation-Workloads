@@ -27,11 +27,11 @@ fixed_pr="810"
 
 current_dir=$(pwd)
 
-# check if the current dir contains mldaikon
-if [ -d "mldaikon" ]; then
-    echo "install.sh executed in the mldaikon directory"
+# check if the current dir contains traincheck
+if [ -d "traincheck" ]; then
+    echo "install.sh executed in the traincheck directory"
 else
-    echo "install.sh executed in the wrong directory, please execute it in the mldaikon directory"
+    echo "install.sh executed in the wrong directory, please execute it in the traincheck directory"
     exit 1
 fi
 

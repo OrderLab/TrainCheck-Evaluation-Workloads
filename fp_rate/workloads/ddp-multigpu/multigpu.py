@@ -52,8 +52,8 @@ class Trainer:
         b_sz = len(next(iter(self.train_data))[0])
         print(f"[GPU{self.gpu_id}] Epoch {epoch} | Batchsize: {b_sz} | Steps: {len(self.train_data)}")
         self.train_data.sampler.set_epoch(epoch)
-        for batch_idx, (source, targets) in enumerate(self.train_data):  # ML-DAIKON: added batch_idx
-            meta_vars["step"] = len(self.train_data) * epoch + batch_idx  # ML-DAIKON: added step as stack var based 
+        for batch_idx, (source, targets) in enumerate(self.train_data):  # TrainCheck: added batch_idx
+            meta_vars["step"] = len(self.train_data) * epoch + batch_idx  # TrainCheck: added step as stack var based 
             source = source.to(self.gpu_id)
             targets = targets.to(self.gpu_id)
             self._run_batch(source, targets)
@@ -71,7 +71,7 @@ class Trainer:
                 self._save_checkpoint(epoch)
 
 
-# ML-DAIKON: Define a toy model for demonstration (original pipeline only used one Linear and that's too simple for our purpose (to produce var name as part of the precondition))
+# TrainCheck: Define a toy model for demonstration (original pipeline only used one Linear and that's too simple for our purpose (to produce var name as part of the precondition))
 class ToyModel(torch.nn.Module):
     def __init__(self):
         super(ToyModel, self).__init__()

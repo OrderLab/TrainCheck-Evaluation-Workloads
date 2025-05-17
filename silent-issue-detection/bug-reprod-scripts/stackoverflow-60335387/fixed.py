@@ -115,7 +115,7 @@ for epoch in range(epochs):
         total += label.size(0)
         
         # if batch_idx == 50:
-        #     # ML-DAIKON: break the loop after 50 iterations
+        #     # TrainCheck: break the loop after 50 iterations
         #     break
 
         if batch_idx % 200 == 0:

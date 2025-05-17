@@ -60,7 +60,7 @@ def evaluate(model, data_loader, criterion, device):
             correct += pred.eq(target.view_as(pred)).sum().item()
 
             if batch_idx == 10:
-                # ML-DAIKON: break the loop after 50 iterations
+                # TrainCheck: break the loop after 50 iterations
                 break
 
     total_loss /= len(data_loader.dataset)
@@ -123,7 +123,7 @@ for epoch in range(epochs):
         total += label.size(0)
         
         if batch_idx == 50:
-            # ML-DAIKON: break the loop after 50 iterations
+            # TrainCheck: break the loop after 50 iterations
             break
 
         print(batch_idx)

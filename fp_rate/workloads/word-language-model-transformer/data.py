@@ -44,7 +44,7 @@ class Corpus(object):
                     ids.append(self.dictionary.word2idx[word])
                 idss.append(torch.tensor(ids).type(torch.int64))
                 if len(idss) == 256:
-                    # ml-daikon: only load the first 256 data
+                    # traincheck: only load the first 256 data
                     break
             ids = torch.cat(idss)
 

@@ -5,8 +5,8 @@ from transformers import Trainer, TrainingArguments, AutoModel, AutoTokenizer
 from datasets import load_dataset
 from transformers.trainer_utils import get_last_checkpoint
 
-from mldaikon import annotate_stage
-from mldaikon.instrumentor import meta_vars
+from traincheck import annotate_stage
+from traincheck.instrumentor import meta_vars
 
 annotate_stage("init")
 

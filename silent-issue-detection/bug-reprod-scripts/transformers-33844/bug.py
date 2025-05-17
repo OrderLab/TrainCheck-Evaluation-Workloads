@@ -4,9 +4,9 @@ from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 import transformers
 import torch
 
-import mldaikon
-from mldaikon import annotate_stage
-mldaikon.instrumentor.tracer.DISABLE_WRAPPER = True
+import traincheck
+from traincheck import annotate_stage
+traincheck.instrumentor.tracer.DISABLE_WRAPPER = True
 
 # Load a model and tokenizer
 model_name = "facebook/m2m100_418M"
@@ -17,7 +17,7 @@ model = M2M100ForConditionalGeneration.from_pretrained(model_name, attn_implemen
 tokenizer = M2M100Tokenizer.from_pretrained(model_name)
 print("attention_implementations:", model.config._attn_implementation)
 
-mldaikon.instrumentor.tracer.DISABLE_WRAPPER = False
+traincheck.instrumentor.tracer.DISABLE_WRAPPER = False
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device).bfloat16()
@@ -42,9 +42,9 @@ for module in model.modules():
 # Prepare inputs
 input_text = "This is a test sentence."
 
-mldaikon.instrumentor.tracer.DISABLE_WRAPPER = True
+traincheck.instrumentor.tracer.DISABLE_WRAPPER = True
 input_ids = tokenizer(input_text, return_tensors="pt").input_ids.to(device)
-mldaikon.instrumentor.tracer.DISABLE_WRAPPER = False
+traincheck.instrumentor.tracer.DISABLE_WRAPPER = False
 
 decoder_start_token_id = model.config.decoder_start_token_id
 decoder_input_ids = torch.tensor([[decoder_start_token_id]]).to(device)
