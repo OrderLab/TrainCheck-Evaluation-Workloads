@@ -1,0 +1,4 @@
+pyscript: bug.py
+models_to_track:
+  - model
+model_tracker_style: sampler

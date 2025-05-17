@@ -1,0 +1,812 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Loaded pretrained weights for efficientnet-b0
+1280
+module._conv_stem.weight: False
+module._bn0.weight: False
+module._bn0.bias: False
+module._blocks.0._depthwise_conv.weight: False
+module._blocks.0._bn1.weight: False
+module._blocks.0._bn1.bias: False
+module._blocks.0._se_reduce.weight: False
+module._blocks.0._se_reduce.bias: False
+module._blocks.0._se_expand.weight: False
+module._blocks.0._se_expand.bias: False
+module._blocks.0._project_conv.weight: False
+module._blocks.0._bn2.weight: False
+module._blocks.0._bn2.bias: False
+module._blocks.1._expand_conv.weight: False
+module._blocks.1._bn0.weight: False
+module._blocks.1._bn0.bias: False
+module._blocks.1._depthwise_conv.weight: False
+module._blocks.1._bn1.weight: False
+module._blocks.1._bn1.bias: False
+module._blocks.1._se_reduce.weight: False
+module._blocks.1._se_reduce.bias: False
+module._blocks.1._se_expand.weight: False
+module._blocks.1._se_expand.bias: False
+module._blocks.1._project_conv.weight: False
+module._blocks.1._bn2.weight: False
+module._blocks.1._bn2.bias: False
+module._blocks.2._expand_conv.weight: False
+module._blocks.2._bn0.weight: False
+module._blocks.2._bn0.bias: False
+module._blocks.2._depthwise_conv.weight: False
+module._blocks.2._bn1.weight: False
+module._blocks.2._bn1.bias: False
+module._blocks.2._se_reduce.weight: False
+module._blocks.2._se_reduce.bias: False
+module._blocks.2._se_expand.weight: False
+module._blocks.2._se_expand.bias: False
+module._blocks.2._project_conv.weight: False
+module._blocks.2._bn2.weight: False
+module._blocks.2._bn2.bias: False
+module._blocks.3._expand_conv.weight: False
+module._blocks.3._bn0.weight: False
+module._blocks.3._bn0.bias: False
+module._blocks.3._depthwise_conv.weight: False
+module._blocks.3._bn1.weight: False
+module._blocks.3._bn1.bias: False
+module._blocks.3._se_reduce.weight: False
+module._blocks.3._se_reduce.bias: False
+module._blocks.3._se_expand.weight: False
+module._blocks.3._se_expand.bias: False
+module._blocks.3._project_conv.weight: False
+module._blocks.3._bn2.weight: False
+module._blocks.3._bn2.bias: False
+module._blocks.4._expand_conv.weight: False
+module._blocks.4._bn0.weight: False
+module._blocks.4._bn0.bias: False
+module._blocks.4._depthwise_conv.weight: False
+module._blocks.4._bn1.weight: False
+module._blocks.4._bn1.bias: False
+module._blocks.4._se_reduce.weight: False
+module._blocks.4._se_reduce.bias: False
+module._blocks.4._se_expand.weight: False
+module._blocks.4._se_expand.bias: False
+module._blocks.4._project_conv.weight: False
+module._blocks.4._bn2.weight: False
+module._blocks.4._bn2.bias: False
+module._blocks.5._expand_conv.weight: False
+module._blocks.5._bn0.weight: False
+module._blocks.5._bn0.bias: False
+module._blocks.5._depthwise_conv.weight: False
+module._blocks.5._bn1.weight: False
+module._blocks.5._bn1.bias: False
+module._blocks.5._se_reduce.weight: False
+module._blocks.5._se_reduce.bias: False
+module._blocks.5._se_expand.weight: False
+module._blocks.5._se_expand.bias: False
+module._blocks.5._project_conv.weight: False
+module._blocks.5._bn2.weight: False
+module._blocks.5._bn2.bias: False
+module._blocks.6._expand_conv.weight: False
+module._blocks.6._bn0.weight: False
+module._blocks.6._bn0.bias: False
+module._blocks.6._depthwise_conv.weight: False
+module._blocks.6._bn1.weight: False
+module._blocks.6._bn1.bias: False
+module._blocks.6._se_reduce.weight: False
+module._blocks.6._se_reduce.bias: False
+module._blocks.6._se_expand.weight: False
+module._blocks.6._se_expand.bias: False
+module._blocks.6._project_conv.weight: False
+module._blocks.6._bn2.weight: False
+module._blocks.6._bn2.bias: False
+module._blocks.7._expand_conv.weight: False
+module._blocks.7._bn0.weight: False
+module._blocks.7._bn0.bias: False
+module._blocks.7._depthwise_conv.weight: False
+module._blocks.7._bn1.weight: False
+module._blocks.7._bn1.bias: False
+module._blocks.7._se_reduce.weight: False
+module._blocks.7._se_reduce.bias: False
+module._blocks.7._se_expand.weight: False
+module._blocks.7._se_expand.bias: False
+module._blocks.7._project_conv.weight: False
+module._blocks.7._bn2.weight: False
+module._blocks.7._bn2.bias: False
+module._blocks.8._expand_conv.weight: False
+module._blocks.8._bn0.weight: False
+module._blocks.8._bn0.bias: False
+module._blocks.8._depthwise_conv.weight: False
+module._blocks.8._bn1.weight: False
+module._blocks.8._bn1.bias: False
+module._blocks.8._se_reduce.weight: False
+module._blocks.8._se_reduce.bias: False
+module._blocks.8._se_expand.weight: False
+module._blocks.8._se_expand.bias: False
+module._blocks.8._project_conv.weight: False
+module._blocks.8._bn2.weight: False
+module._blocks.8._bn2.bias: False
+module._blocks.9._expand_conv.weight: False
+module._blocks.9._bn0.weight: False
+module._blocks.9._bn0.bias: False
+module._blocks.9._depthwise_conv.weight: False
+module._blocks.9._bn1.weight: False
+module._blocks.9._bn1.bias: False
+module._blocks.9._se_reduce.weight: False
+module._blocks.9._se_reduce.bias: False
+module._blocks.9._se_expand.weight: False
+module._blocks.9._se_expand.bias: False
+module._blocks.9._project_conv.weight: False
+module._blocks.9._bn2.weight: False
+module._blocks.9._bn2.bias: False
+module._blocks.10._expand_conv.weight: False
+module._blocks.10._bn0.weight: False
+module._blocks.10._bn0.bias: False
+module._blocks.10._depthwise_conv.weight: False
+module._blocks.10._bn1.weight: False
+module._blocks.10._bn1.bias: False
+module._blocks.10._se_reduce.weight: False
+module._blocks.10._se_reduce.bias: False
+module._blocks.10._se_expand.weight: False
+module._blocks.10._se_expand.bias: False
+module._blocks.10._project_conv.weight: False
+module._blocks.10._bn2.weight: False
+module._blocks.10._bn2.bias: False
+module._blocks.11._expand_conv.weight: False
+module._blocks.11._bn0.weight: False
+module._blocks.11._bn0.bias: False
+module._blocks.11._depthwise_conv.weight: False
+module._blocks.11._bn1.weight: False
+module._blocks.11._bn1.bias: False
+module._blocks.11._se_reduce.weight: False
+module._blocks.11._se_reduce.bias: False
+module._blocks.11._se_expand.weight: False
+module._blocks.11._se_expand.bias: False
+module._blocks.11._project_conv.weight: False
+module._blocks.11._bn2.weight: False
+module._blocks.11._bn2.bias: False
+module._blocks.12._expand_conv.weight: False
+module._blocks.12._bn0.weight: False
+module._blocks.12._bn0.bias: False
+module._blocks.12._depthwise_conv.weight: False
+module._blocks.12._bn1.weight: False
+module._blocks.12._bn1.bias: False
+module._blocks.12._se_reduce.weight: False
+module._blocks.12._se_reduce.bias: False
+module._blocks.12._se_expand.weight: True
+module._blocks.12._se_expand.bias: True
+module._blocks.12._project_conv.weight: True
+module._blocks.12._bn2.weight: False
+module._blocks.12._bn2.bias: False
+module._blocks.13._expand_conv.weight: True
+module._blocks.13._bn0.weight: False
+module._blocks.13._bn0.bias: False
+module._blocks.13._depthwise_conv.weight: True
+module._blocks.13._bn1.weight: False
+module._blocks.13._bn1.bias: False
+module._blocks.13._se_reduce.weight: True
+module._blocks.13._se_reduce.bias: True
+module._blocks.13._se_expand.weight: True
+module._blocks.13._se_expand.bias: True
+module._blocks.13._project_conv.weight: True
+module._blocks.13._bn2.weight: False
+module._blocks.13._bn2.bias: False
+module._blocks.14._expand_conv.weight: True
+module._blocks.14._bn0.weight: False
+module._blocks.14._bn0.bias: False
+module._blocks.14._depthwise_conv.weight: True
+module._blocks.14._bn1.weight: False
+module._blocks.14._bn1.bias: False
+module._blocks.14._se_reduce.weight: True
+module._blocks.14._se_reduce.bias: True
+module._blocks.14._se_expand.weight: True
+module._blocks.14._se_expand.bias: True
+module._blocks.14._project_conv.weight: True
+module._blocks.14._bn2.weight: False
+module._blocks.14._bn2.bias: False
+module._blocks.15._expand_conv.weight: True
+module._blocks.15._bn0.weight: False
+module._blocks.15._bn0.bias: False
+module._blocks.15._depthwise_conv.weight: True
+module._blocks.15._bn1.weight: False
+module._blocks.15._bn1.bias: False
+module._blocks.15._se_reduce.weight: True
+module._blocks.15._se_reduce.bias: True
+module._blocks.15._se_expand.weight: True
+module._blocks.15._se_expand.bias: True
+module._blocks.15._project_conv.weight: True
+module._blocks.15._bn2.weight: False
+module._blocks.15._bn2.bias: False
+module._conv_head.weight: True
+module._bn1.weight: False
+module._bn1.bias: False
+module._fc.0.weight: False
+module._fc.0.bias: False
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+         ZeroPad2d-1          [-1, 3, 225, 225]               0
+Conv2dStaticSamePadding-2         [-1, 32, 112, 112]             864
+       BatchNorm2d-3         [-1, 32, 112, 112]              64
+MemoryEfficientSwish-4         [-1, 32, 112, 112]               0
+         ZeroPad2d-5         [-1, 32, 114, 114]               0
+Conv2dStaticSamePadding-6         [-1, 32, 112, 112]             288
+       BatchNorm2d-7         [-1, 32, 112, 112]              64
+MemoryEfficientSwish-8         [-1, 32, 112, 112]               0
+          Identity-9             [-1, 32, 1, 1]               0
+Conv2dStaticSamePadding-10              [-1, 8, 1, 1]             264
+MemoryEfficientSwish-11              [-1, 8, 1, 1]               0
+         Identity-12              [-1, 8, 1, 1]               0
+Conv2dStaticSamePadding-13             [-1, 32, 1, 1]             288
+         Identity-14         [-1, 32, 112, 112]               0
+Conv2dStaticSamePadding-15         [-1, 16, 112, 112]             512
+      BatchNorm2d-16         [-1, 16, 112, 112]              32
+      MBConvBlock-17         [-1, 16, 112, 112]               0
+         Identity-18         [-1, 16, 112, 112]               0
+Conv2dStaticSamePadding-19         [-1, 96, 112, 112]           1,536
+      BatchNorm2d-20         [-1, 96, 112, 112]             192
+MemoryEfficientSwish-21         [-1, 96, 112, 112]               0
+        ZeroPad2d-22         [-1, 96, 113, 113]               0
+Conv2dStaticSamePadding-23           [-1, 96, 56, 56]             864
+      BatchNorm2d-24           [-1, 96, 56, 56]             192
+MemoryEfficientSwish-25           [-1, 96, 56, 56]               0
+         Identity-26             [-1, 96, 1, 1]               0
+Conv2dStaticSamePadding-27              [-1, 4, 1, 1]             388
+MemoryEfficientSwish-28              [-1, 4, 1, 1]               0
+         Identity-29              [-1, 4, 1, 1]               0
+Conv2dStaticSamePadding-30             [-1, 96, 1, 1]             480
+         Identity-31           [-1, 96, 56, 56]               0
+Conv2dStaticSamePadding-32           [-1, 24, 56, 56]           2,304
+      BatchNorm2d-33           [-1, 24, 56, 56]              48
+      MBConvBlock-34           [-1, 24, 56, 56]               0
+         Identity-35           [-1, 24, 56, 56]               0
+Conv2dStaticSamePadding-36          [-1, 144, 56, 56]           3,456
+      BatchNorm2d-37          [-1, 144, 56, 56]             288
+MemoryEfficientSwish-38          [-1, 144, 56, 56]               0
+        ZeroPad2d-39          [-1, 144, 58, 58]               0
+Conv2dStaticSamePadding-40          [-1, 144, 56, 56]           1,296
+      BatchNorm2d-41          [-1, 144, 56, 56]             288
+MemoryEfficientSwish-42          [-1, 144, 56, 56]               0
+         Identity-43            [-1, 144, 1, 1]               0
+Conv2dStaticSamePadding-44              [-1, 6, 1, 1]             870
+MemoryEfficientSwish-45              [-1, 6, 1, 1]               0
+         Identity-46              [-1, 6, 1, 1]               0
+Conv2dStaticSamePadding-47            [-1, 144, 1, 1]           1,008
+         Identity-48          [-1, 144, 56, 56]               0
+Conv2dStaticSamePadding-49           [-1, 24, 56, 56]           3,456
+      BatchNorm2d-50           [-1, 24, 56, 56]              48
+      MBConvBlock-51           [-1, 24, 56, 56]               0
+         Identity-52           [-1, 24, 56, 56]               0
+Conv2dStaticSamePadding-53          [-1, 144, 56, 56]           3,456
+      BatchNorm2d-54          [-1, 144, 56, 56]             288
+MemoryEfficientSwish-55          [-1, 144, 56, 56]               0
+        ZeroPad2d-56          [-1, 144, 59, 59]               0
+Conv2dStaticSamePadding-57          [-1, 144, 28, 28]           3,600
+      BatchNorm2d-58          [-1, 144, 28, 28]             288
+MemoryEfficientSwish-59          [-1, 144, 28, 28]               0
+         Identity-60            [-1, 144, 1, 1]               0
+Conv2dStaticSamePadding-61              [-1, 6, 1, 1]             870
+MemoryEfficientSwish-62              [-1, 6, 1, 1]               0
+         Identity-63              [-1, 6, 1, 1]               0
+Conv2dStaticSamePadding-64            [-1, 144, 1, 1]           1,008
+         Identity-65          [-1, 144, 28, 28]               0
+Conv2dStaticSamePadding-66           [-1, 40, 28, 28]           5,760
+      BatchNorm2d-67           [-1, 40, 28, 28]              80
+      MBConvBlock-68           [-1, 40, 28, 28]               0
+         Identity-69           [-1, 40, 28, 28]               0
+Conv2dStaticSamePadding-70          [-1, 240, 28, 28]           9,600
+      BatchNorm2d-71          [-1, 240, 28, 28]             480
+MemoryEfficientSwish-72          [-1, 240, 28, 28]               0
+        ZeroPad2d-73          [-1, 240, 32, 32]               0
+Conv2dStaticSamePadding-74          [-1, 240, 28, 28]           6,000
+      BatchNorm2d-75          [-1, 240, 28, 28]             480
+MemoryEfficientSwish-76          [-1, 240, 28, 28]               0
+         Identity-77            [-1, 240, 1, 1]               0
+Conv2dStaticSamePadding-78             [-1, 10, 1, 1]           2,410
+MemoryEfficientSwish-79             [-1, 10, 1, 1]               0
+         Identity-80             [-1, 10, 1, 1]               0
+Conv2dStaticSamePadding-81            [-1, 240, 1, 1]           2,640
+         Identity-82          [-1, 240, 28, 28]               0
+Conv2dStaticSamePadding-83           [-1, 40, 28, 28]           9,600
+      BatchNorm2d-84           [-1, 40, 28, 28]              80
+      MBConvBlock-85           [-1, 40, 28, 28]               0
+         Identity-86           [-1, 40, 28, 28]               0
+Conv2dStaticSamePadding-87          [-1, 240, 28, 28]           9,600
+      BatchNorm2d-88          [-1, 240, 28, 28]             480
+MemoryEfficientSwish-89          [-1, 240, 28, 28]               0
+        ZeroPad2d-90          [-1, 240, 29, 29]               0
+Conv2dStaticSamePadding-91          [-1, 240, 14, 14]           2,160
+      BatchNorm2d-92          [-1, 240, 14, 14]             480
+MemoryEfficientSwish-93          [-1, 240, 14, 14]               0
+         Identity-94            [-1, 240, 1, 1]               0
+Conv2dStaticSamePadding-95             [-1, 10, 1, 1]           2,410
+MemoryEfficientSwish-96             [-1, 10, 1, 1]               0
+         Identity-97             [-1, 10, 1, 1]               0
+Conv2dStaticSamePadding-98            [-1, 240, 1, 1]           2,640
+         Identity-99          [-1, 240, 14, 14]               0
+Conv2dStaticSamePadding-100           [-1, 80, 14, 14]          19,200
+     BatchNorm2d-101           [-1, 80, 14, 14]             160
+     MBConvBlock-102           [-1, 80, 14, 14]               0
+        Identity-103           [-1, 80, 14, 14]               0
+Conv2dStaticSamePadding-104          [-1, 480, 14, 14]          38,400
+     BatchNorm2d-105          [-1, 480, 14, 14]             960
+MemoryEfficientSwish-106          [-1, 480, 14, 14]               0
+       ZeroPad2d-107          [-1, 480, 16, 16]               0
+Conv2dStaticSamePadding-108          [-1, 480, 14, 14]           4,320
+     BatchNorm2d-109          [-1, 480, 14, 14]             960
+MemoryEfficientSwish-110          [-1, 480, 14, 14]               0
+        Identity-111            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-112             [-1, 20, 1, 1]           9,620
+MemoryEfficientSwish-113             [-1, 20, 1, 1]               0
+        Identity-114             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-115            [-1, 480, 1, 1]          10,080
+        Identity-116          [-1, 480, 14, 14]               0
+Conv2dStaticSamePadding-117           [-1, 80, 14, 14]          38,400
+     BatchNorm2d-118           [-1, 80, 14, 14]             160
+     MBConvBlock-119           [-1, 80, 14, 14]               0
+        Identity-120           [-1, 80, 14, 14]               0
+Conv2dStaticSamePadding-121          [-1, 480, 14, 14]          38,400
+     BatchNorm2d-122          [-1, 480, 14, 14]             960
+MemoryEfficientSwish-123          [-1, 480, 14, 14]               0
+       ZeroPad2d-124          [-1, 480, 16, 16]               0
+Conv2dStaticSamePadding-125          [-1, 480, 14, 14]           4,320
+     BatchNorm2d-126          [-1, 480, 14, 14]             960
+MemoryEfficientSwish-127          [-1, 480, 14, 14]               0
+        Identity-128            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-129             [-1, 20, 1, 1]           9,620
+MemoryEfficientSwish-130             [-1, 20, 1, 1]               0
+        Identity-131             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-132            [-1, 480, 1, 1]          10,080
+        Identity-133          [-1, 480, 14, 14]               0
+Conv2dStaticSamePadding-134           [-1, 80, 14, 14]          38,400
+     BatchNorm2d-135           [-1, 80, 14, 14]             160
+     MBConvBlock-136           [-1, 80, 14, 14]               0
+        Identity-137           [-1, 80, 14, 14]               0
+Conv2dStaticSamePadding-138          [-1, 480, 14, 14]          38,400
+     BatchNorm2d-139          [-1, 480, 14, 14]             960
+MemoryEfficientSwish-140          [-1, 480, 14, 14]               0
+       ZeroPad2d-141          [-1, 480, 18, 18]               0
+Conv2dStaticSamePadding-142          [-1, 480, 14, 14]          12,000
+     BatchNorm2d-143          [-1, 480, 14, 14]             960
+MemoryEfficientSwish-144          [-1, 480, 14, 14]               0
+        Identity-145            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-146             [-1, 20, 1, 1]           9,620
+MemoryEfficientSwish-147             [-1, 20, 1, 1]               0
+        Identity-148             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-149            [-1, 480, 1, 1]          10,080
+        Identity-150          [-1, 480, 14, 14]               0
+Conv2dStaticSamePadding-151          [-1, 112, 14, 14]          53,760
+     BatchNorm2d-152          [-1, 112, 14, 14]             224
+     MBConvBlock-153          [-1, 112, 14, 14]               0
+        Identity-154          [-1, 112, 14, 14]               0
+Conv2dStaticSamePadding-155          [-1, 672, 14, 14]          75,264
+     BatchNorm2d-156          [-1, 672, 14, 14]           1,344
+MemoryEfficientSwish-157          [-1, 672, 14, 14]               0
+       ZeroPad2d-158          [-1, 672, 18, 18]               0
+Conv2dStaticSamePadding-159          [-1, 672, 14, 14]          16,800
+     BatchNorm2d-160          [-1, 672, 14, 14]           1,344
+MemoryEfficientSwish-161          [-1, 672, 14, 14]               0
+        Identity-162            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-163             [-1, 28, 1, 1]          18,844
+MemoryEfficientSwish-164             [-1, 28, 1, 1]               0
+        Identity-165             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-166            [-1, 672, 1, 1]          19,488
+        Identity-167          [-1, 672, 14, 14]               0
+Conv2dStaticSamePadding-168          [-1, 112, 14, 14]          75,264
+     BatchNorm2d-169          [-1, 112, 14, 14]             224
+     MBConvBlock-170          [-1, 112, 14, 14]               0
+        Identity-171          [-1, 112, 14, 14]               0
+Conv2dStaticSamePadding-172          [-1, 672, 14, 14]          75,264
+     BatchNorm2d-173          [-1, 672, 14, 14]           1,344
+MemoryEfficientSwish-174          [-1, 672, 14, 14]               0
+       ZeroPad2d-175          [-1, 672, 18, 18]               0
+Conv2dStaticSamePadding-176          [-1, 672, 14, 14]          16,800
+     BatchNorm2d-177          [-1, 672, 14, 14]           1,344
+MemoryEfficientSwish-178          [-1, 672, 14, 14]               0
+        Identity-179            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-180             [-1, 28, 1, 1]          18,844
+MemoryEfficientSwish-181             [-1, 28, 1, 1]               0
+        Identity-182             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-183            [-1, 672, 1, 1]          19,488
+        Identity-184          [-1, 672, 14, 14]               0
+Conv2dStaticSamePadding-185          [-1, 112, 14, 14]          75,264
+     BatchNorm2d-186          [-1, 112, 14, 14]             224
+     MBConvBlock-187          [-1, 112, 14, 14]               0
+        Identity-188          [-1, 112, 14, 14]               0
+Conv2dStaticSamePadding-189          [-1, 672, 14, 14]          75,264
+     BatchNorm2d-190          [-1, 672, 14, 14]           1,344
+MemoryEfficientSwish-191          [-1, 672, 14, 14]               0
+       ZeroPad2d-192          [-1, 672, 17, 17]               0
+Conv2dStaticSamePadding-193            [-1, 672, 7, 7]          16,800
+     BatchNorm2d-194            [-1, 672, 7, 7]           1,344
+MemoryEfficientSwish-195            [-1, 672, 7, 7]               0
+        Identity-196            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-197             [-1, 28, 1, 1]          18,844
+MemoryEfficientSwish-198             [-1, 28, 1, 1]               0
+        Identity-199             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-200            [-1, 672, 1, 1]          19,488
+        Identity-201            [-1, 672, 7, 7]               0
+Conv2dStaticSamePadding-202            [-1, 192, 7, 7]         129,024
+     BatchNorm2d-203            [-1, 192, 7, 7]             384
+     MBConvBlock-204            [-1, 192, 7, 7]               0
+        Identity-205            [-1, 192, 7, 7]               0
+Conv2dStaticSamePadding-206           [-1, 1152, 7, 7]         221,184
+     BatchNorm2d-207           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-208           [-1, 1152, 7, 7]               0
+       ZeroPad2d-209         [-1, 1152, 11, 11]               0
+Conv2dStaticSamePadding-210           [-1, 1152, 7, 7]          28,800
+     BatchNorm2d-211           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-212           [-1, 1152, 7, 7]               0
+        Identity-213           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-214             [-1, 48, 1, 1]          55,344
+MemoryEfficientSwish-215             [-1, 48, 1, 1]               0
+        Identity-216             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-217           [-1, 1152, 1, 1]          56,448
+        Identity-218           [-1, 1152, 7, 7]               0
+Conv2dStaticSamePadding-219            [-1, 192, 7, 7]         221,184
+     BatchNorm2d-220            [-1, 192, 7, 7]             384
+     MBConvBlock-221            [-1, 192, 7, 7]               0
+        Identity-222            [-1, 192, 7, 7]               0
+Conv2dStaticSamePadding-223           [-1, 1152, 7, 7]         221,184
+     BatchNorm2d-224           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-225           [-1, 1152, 7, 7]               0
+       ZeroPad2d-226         [-1, 1152, 11, 11]               0
+Conv2dStaticSamePadding-227           [-1, 1152, 7, 7]          28,800
+     BatchNorm2d-228           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-229           [-1, 1152, 7, 7]               0
+        Identity-230           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-231             [-1, 48, 1, 1]          55,344
+MemoryEfficientSwish-232             [-1, 48, 1, 1]               0
+        Identity-233             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-234           [-1, 1152, 1, 1]          56,448
+        Identity-235           [-1, 1152, 7, 7]               0
+Conv2dStaticSamePadding-236            [-1, 192, 7, 7]         221,184
+     BatchNorm2d-237            [-1, 192, 7, 7]             384
+     MBConvBlock-238            [-1, 192, 7, 7]               0
+        Identity-239            [-1, 192, 7, 7]               0
+Conv2dStaticSamePadding-240           [-1, 1152, 7, 7]         221,184
+     BatchNorm2d-241           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-242           [-1, 1152, 7, 7]               0
+       ZeroPad2d-243         [-1, 1152, 11, 11]               0
+Conv2dStaticSamePadding-244           [-1, 1152, 7, 7]          28,800
+     BatchNorm2d-245           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-246           [-1, 1152, 7, 7]               0
+        Identity-247           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-248             [-1, 48, 1, 1]          55,344
+MemoryEfficientSwish-249             [-1, 48, 1, 1]               0
+        Identity-250             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-251           [-1, 1152, 1, 1]          56,448
+        Identity-252           [-1, 1152, 7, 7]               0
+Conv2dStaticSamePadding-253            [-1, 192, 7, 7]         221,184
+     BatchNorm2d-254            [-1, 192, 7, 7]             384
+     MBConvBlock-255            [-1, 192, 7, 7]               0
+        Identity-256            [-1, 192, 7, 7]               0
+Conv2dStaticSamePadding-257           [-1, 1152, 7, 7]         221,184
+     BatchNorm2d-258           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-259           [-1, 1152, 7, 7]               0
+       ZeroPad2d-260           [-1, 1152, 9, 9]               0
+Conv2dStaticSamePadding-261           [-1, 1152, 7, 7]          10,368
+     BatchNorm2d-262           [-1, 1152, 7, 7]           2,304
+MemoryEfficientSwish-263           [-1, 1152, 7, 7]               0
+        Identity-264           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-265             [-1, 48, 1, 1]          55,344
+MemoryEfficientSwish-266             [-1, 48, 1, 1]               0
+        Identity-267             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-268           [-1, 1152, 1, 1]          56,448
+        Identity-269           [-1, 1152, 7, 7]               0
+Conv2dStaticSamePadding-270            [-1, 320, 7, 7]         368,640
+     BatchNorm2d-271            [-1, 320, 7, 7]             640
+     MBConvBlock-272            [-1, 320, 7, 7]               0
+        Identity-273            [-1, 320, 7, 7]               0
+Conv2dStaticSamePadding-274           [-1, 1280, 7, 7]         409,600
+     BatchNorm2d-275           [-1, 1280, 7, 7]           2,560
+MemoryEfficientSwish-276           [-1, 1280, 7, 7]               0
+AdaptiveAvgPool2d-277           [-1, 1280, 1, 1]               0
+         Dropout-278                 [-1, 1280]               0
+          Linear-279                  [-1, 100]         128,100
+            ReLU-280                  [-1, 100]               0
+    EfficientNet-281                  [-1, 100]               0
+================================================================
+Total params: 4,135,648
+Trainable params: 2,565,136
+Non-trainable params: 1,570,512
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 212.79
+Params size (MB): 15.78
+Estimated Total Size (MB): 229.14
+----------------------------------------------------------------
+Epoch: 1 	Training Loss: 3.179975 	Validation Loss: 2.462426
+
+
+Valid Accuracy: 39% (3922/10000)
+
+{'Epoch': 1, 'loss': 3.1799750099401654, 'valid_loss': 2.46242597599331, 'Valid_Accuracy': 39.22}
+
+Validation loss decreased (inf --> 2.462426).  Saving model ...
+Epoch: 2 	Training Loss: 2.564685 	Validation Loss: 2.140356
+
+
+Valid Accuracy: 45% (4590/10000)
+
+{'Epoch': 2, 'loss': 2.5646849486529057, 'valid_loss': 2.1403564437371174, 'Valid_Accuracy': 45.9}
+
+Validation loss decreased (2.462426 --> 2.140356).  Saving model ...
+Epoch: 3 	Training Loss: 2.368945 	Validation Loss: 2.044415
+
+
+Valid Accuracy: 48% (4839/10000)
+
+{'Epoch': 3, 'loss': 2.3689445347127407, 'valid_loss': 2.044415034069795, 'Valid_Accuracy': 48.39}
+
+Validation loss decreased (2.140356 --> 2.044415).  Saving model ...
+Epoch: 4 	Training Loss: 2.242002 	Validation Loss: 1.941770
+
+
+Valid Accuracy: 50% (5012/10000)
+
+{'Epoch': 4, 'loss': 2.242002179555574, 'valid_loss': 1.9417701641862026, 'Valid_Accuracy': 50.12}
+
+Validation loss decreased (2.044415 --> 1.941770).  Saving model ...
+Epoch: 5 	Training Loss: 2.154430 	Validation Loss: 1.827861
+
+
+Valid Accuracy: 52% (5262/10000)
+
+{'Epoch': 5, 'loss': 2.1544303162323564, 'valid_loss': 1.8278609595371431, 'Valid_Accuracy': 52.62}
+
+Validation loss decreased (1.941770 --> 1.827861).  Saving model ...
+Epoch: 6 	Training Loss: 2.092447 	Validation Loss: 1.768609
+
+
+Valid Accuracy: 54% (5442/10000)
+
+{'Epoch': 6, 'loss': 2.092447314420929, 'valid_loss': 1.7686087600348845, 'Valid_Accuracy': 54.42}
+
+Validation loss decreased (1.827861 --> 1.768609).  Saving model ...
+Epoch: 7 	Training Loss: 2.046569 	Validation Loss: 1.699728
+
+
+Valid Accuracy: 56% (5631/10000)
+
+{'Epoch': 7, 'loss': 2.046568561697859, 'valid_loss': 1.6997277274678169, 'Valid_Accuracy': 56.31}
+
+Validation loss decreased (1.768609 --> 1.699728).  Saving model ...
+Epoch: 8 	Training Loss: 1.991700 	Validation Loss: 1.765760
+
+
+Valid Accuracy: 55% (5576/10000)
+
+{'Epoch': 8, 'loss': 1.9917000416294675, 'valid_loss': 1.7657596083086484, 'Valid_Accuracy': 55.76}
+
+Epoch: 9 	Training Loss: 1.959552 	Validation Loss: 1.697158
+
+
+Valid Accuracy: 57% (5702/10000)
+
+{'Epoch': 9, 'loss': 1.959551739723176, 'valid_loss': 1.6971576856002804, 'Valid_Accuracy': 57.02}
+
+Validation loss decreased (1.699728 --> 1.697158).  Saving model ...
+Epoch: 10 	Training Loss: 1.922642 	Validation Loss: 1.646600
+
+
+Valid Accuracy: 57% (5763/10000)
+
+{'Epoch': 10, 'loss': 1.9226420511065225, 'valid_loss': 1.6465995094268513, 'Valid_Accuracy': 57.63}
+
+Validation loss decreased (1.697158 --> 1.646600).  Saving model ...
+Epoch: 11 	Training Loss: 1.891961 	Validation Loss: 1.615329
+
+
+Valid Accuracy: 58% (5845/10000)
+
+{'Epoch': 11, 'loss': 1.8919614678453618, 'valid_loss': 1.6153293405057978, 'Valid_Accuracy': 58.45}
+
+Validation loss decreased (1.646600 --> 1.615329).  Saving model ...
+Epoch: 12 	Training Loss: 1.866744 	Validation Loss: 1.662861
+
+
+Valid Accuracy: 57% (5750/10000)
+
+{'Epoch': 12, 'loss': 1.8667435455505201, 'valid_loss': 1.6628608994708414, 'Valid_Accuracy': 57.49999999999999}
+
+Epoch: 13 	Training Loss: 1.841488 	Validation Loss: 1.631232
+
+
+Valid Accuracy: 59% (5928/10000)
+
+{'Epoch': 13, 'loss': 1.8414878781189385, 'valid_loss': 1.6312318993124246, 'Valid_Accuracy': 59.28}
+
+Epoch: 14 	Training Loss: 1.823369 	Validation Loss: 1.588944
+
+
+Valid Accuracy: 59% (5946/10000)
+
+{'Epoch': 14, 'loss': 1.8233689129200117, 'valid_loss': 1.5889439368281695, 'Valid_Accuracy': 59.46}
+
+Validation loss decreased (1.615329 --> 1.588944).  Saving model ...
+Epoch: 15 	Training Loss: 1.802261 	Validation Loss: 1.590830
+
+
+Valid Accuracy: 59% (5906/10000)
+
+{'Epoch': 15, 'loss': 1.802261110157002, 'valid_loss': 1.5908302943433452, 'Valid_Accuracy': 59.06}
+
+Epoch: 16 	Training Loss: 1.794950 	Validation Loss: 1.561519
+
+
+Valid Accuracy: 59% (5959/10000)
+
+{'Epoch': 16, 'loss': 1.7949504356859889, 'valid_loss': 1.5615185295601004, 'Valid_Accuracy': 59.589999999999996}
+
+Validation loss decreased (1.588944 --> 1.561519).  Saving model ...
+Epoch: 17 	Training Loss: 1.775969 	Validation Loss: 1.556747
+
+
+Valid Accuracy: 60% (6052/10000)
+
+{'Epoch': 17, 'loss': 1.7759685432514576, 'valid_loss': 1.5567465447603683, 'Valid_Accuracy': 60.519999999999996}
+
+Validation loss decreased (1.561519 --> 1.556747).  Saving model ...
+Epoch: 18 	Training Loss: 1.747132 	Validation Loss: 1.605616
+
+
+Valid Accuracy: 58% (5870/10000)
+
+{'Epoch': 18, 'loss': 1.7471316052824644, 'valid_loss': 1.6056161757675436, 'Valid_Accuracy': 58.699999999999996}
+
+Epoch: 19 	Training Loss: 1.741528 	Validation Loss: 1.566493
+
+
+Valid Accuracy: 60% (6018/10000)
+
+{'Epoch': 19, 'loss': 1.7415279651541848, 'valid_loss': 1.5664932327628243, 'Valid_Accuracy': 60.18}
+
+Epoch: 20 	Training Loss: 1.729721 	Validation Loss: 1.525996
+
+
+Valid Accuracy: 61% (6116/10000)
+
+{'Epoch': 20, 'loss': 1.7297214269638064, 'valid_loss': 1.5259960859598645, 'Valid_Accuracy': 61.160000000000004}
+
+Validation loss decreased (1.556747 --> 1.525996).  Saving model ...
+Epoch: 21 	Training Loss: 1.706819 	Validation Loss: 1.522208
+
+
+Valid Accuracy: 61% (6127/10000)
+
+{'Epoch': 21, 'loss': 1.7068189056328191, 'valid_loss': 1.5222081631020836, 'Valid_Accuracy': 61.27}
+
+Validation loss decreased (1.525996 --> 1.522208).  Saving model ...
+Epoch: 22 	Training Loss: 1.696406 	Validation Loss: 1.521234
+
+
+Valid Accuracy: 60% (6097/10000)
+
+{'Epoch': 22, 'loss': 1.6964055635130313, 'valid_loss': 1.5212339157223778, 'Valid_Accuracy': 60.97}
+
+Validation loss decreased (1.522208 --> 1.521234).  Saving model ...
+Epoch: 23 	Training Loss: 1.685415 	Validation Loss: 1.521623
+
+
+Valid Accuracy: 61% (6109/10000)
+
+{'Epoch': 23, 'loss': 1.6854153955379088, 'valid_loss': 1.521623253283644, 'Valid_Accuracy': 61.09}
+
+Epoch: 24 	Training Loss: 1.683906 	Validation Loss: 1.496618
+
+
+Valid Accuracy: 61% (6198/10000)
+
+{'Epoch': 24, 'loss': 1.683905609733308, 'valid_loss': 1.4966181392236018, 'Valid_Accuracy': 61.980000000000004}
+
+Validation loss decreased (1.521234 --> 1.496618).  Saving model ...
+Epoch: 25 	Training Loss: 1.656640 	Validation Loss: 1.519844
+
+
+Valid Accuracy: 61% (6125/10000)
+
+{'Epoch': 25, 'loss': 1.6566404666742087, 'valid_loss': 1.5198441787213346, 'Valid_Accuracy': 61.25000000000001}
+
+Epoch: 26 	Training Loss: 1.653932 	Validation Loss: 1.498721
+
+
+Valid Accuracy: 62% (6233/10000)
+
+{'Epoch': 26, 'loss': 1.6539315485283526, 'valid_loss': 1.4987209962078358, 'Valid_Accuracy': 62.33}
+
+Epoch: 27 	Training Loss: 1.655295 	Validation Loss: 1.479453
+
+
+Valid Accuracy: 62% (6257/10000)
+
+{'Epoch': 27, 'loss': 1.6552952992946584, 'valid_loss': 1.4794525592280343, 'Valid_Accuracy': 62.57}
+
+Validation loss decreased (1.496618 --> 1.479453).  Saving model ...
+Epoch: 28 	Training Loss: 1.651091 	Validation Loss: 1.477376
+
+
+Valid Accuracy: 62% (6265/10000)
+
+{'Epoch': 28, 'loss': 1.6510912122019104, 'valid_loss': 1.47737614874373, 'Valid_Accuracy': 62.64999999999999}
+
+Validation loss decreased (1.479453 --> 1.477376).  Saving model ...
+Epoch: 29 	Training Loss: 1.632430 	Validation Loss: 1.492989
+
+
+Valid Accuracy: 62% (6235/10000)
+
+{'Epoch': 29, 'loss': 1.6324302974107034, 'valid_loss': 1.49298939567727, 'Valid_Accuracy': 62.35000000000001}
+
+Epoch: 30 	Training Loss: 1.631157 	Validation Loss: 1.497191
+
+
+Valid Accuracy: 62% (6212/10000)
+
+{'Epoch': 30, 'loss': 1.6311569841926363, 'valid_loss': 1.4971905115991304, 'Valid_Accuracy': 62.12}
+
+Epoch: 31 	Training Loss: 1.627432 	Validation Loss: 1.469705
+
+
+Valid Accuracy: 62% (6298/10000)
+
+{'Epoch': 31, 'loss': 1.627432165853202, 'valid_loss': 1.469704780708714, 'Valid_Accuracy': 62.980000000000004}
+
+Validation loss decreased (1.477376 --> 1.469705).  Saving model ...
+Epoch: 32 	Training Loss: 1.620007 	Validation Loss: 1.492450
+
+
+Valid Accuracy: 62% (6245/10000)
+
+{'Epoch': 32, 'loss': 1.6200068905530374, 'valid_loss': 1.49244989896327, 'Valid_Accuracy': 62.45}
+
+Epoch: 33 	Training Loss: 1.628533 	Validation Loss: 1.470505
+
+
+Valid Accuracy: 62% (6285/10000)
+
+{'Epoch': 33, 'loss': 1.6285334089223082, 'valid_loss': 1.4705050717439758, 'Valid_Accuracy': 62.849999999999994}
+
+Epoch: 34 	Training Loss: 1.618164 	Validation Loss: 1.470765
+
+
+Valid Accuracy: 62% (6271/10000)
+
+{'Epoch': 34, 'loss': 1.6181637528149977, 'valid_loss': 1.4707645948345378, 'Valid_Accuracy': 62.71}
+
+Epoch: 35 	Training Loss: 1.605301 	Validation Loss: 1.444572
+
+
+Valid Accuracy: 63% (6336/10000)
+
+{'Epoch': 35, 'loss': 1.6053008458498497, 'valid_loss': 1.4445723641729913, 'Valid_Accuracy': 63.36000000000001}
+
+Validation loss decreased (1.469705 --> 1.444572).  Saving model ...
+Epoch: 36 	Training Loss: 1.593151 	Validation Loss: 1.491457
+
+
+Valid Accuracy: 61% (6175/10000)
+
+{'Epoch': 36, 'loss': 1.5931510118877175, 'valid_loss': 1.4914565258721886, 'Valid_Accuracy': 61.75000000000001}
+
+Epoch: 37 	Training Loss: 1.595761 	Validation Loss: 1.450982
+
+
+Valid Accuracy: 63% (6327/10000)
+
+{'Epoch': 37, 'loss': 1.5957605276266296, 'valid_loss': 1.4509821162059402, 'Valid_Accuracy': 63.27}
+
+Epoch: 38 	Training Loss: 1.596995 	Validation Loss: 1.473206
+
+
+Valid Accuracy: 62% (6271/10000)
+
+{'Epoch': 38, 'loss': 1.596994902471751, 'valid_loss': 1.4732057718874723, 'Valid_Accuracy': 62.71}
+
+Epoch: 39 	Training Loss: 1.581414 	Validation Loss: 1.467252
+
+
+Valid Accuracy: 62% (6271/10000)
+
+{'Epoch': 39, 'loss': 1.5814135414560113, 'valid_loss': 1.4672518979899214, 'Valid_Accuracy': 62.71}
+
+Epoch: 40 	Training Loss: 1.577916 	Validation Loss: 1.468581
+
+
+Valid Accuracy: 62% (6264/10000)
+
+{'Epoch': 40, 'loss': 1.5779163364101862, 'valid_loss': 1.4685806160140875, 'Valid_Accuracy': 62.63999999999999}
+

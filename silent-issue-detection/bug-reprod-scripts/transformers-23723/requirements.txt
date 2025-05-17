@@ -1,0 +1,7 @@
+transformers<=4.29.2
+accelerate
+librosa
+soundfile
+datasets[audio]
+jiwer
+tensorboardX

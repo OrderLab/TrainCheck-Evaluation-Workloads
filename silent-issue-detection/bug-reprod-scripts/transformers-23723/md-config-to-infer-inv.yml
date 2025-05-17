@@ -1,0 +1,3 @@
+pyscript: input.py
+modules_to_instr:
+  - transformers

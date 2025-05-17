@@ -1,0 +1,5 @@
+pyscript: bug.py
+shscript: run_bug.sh
+models_to_track:
+  - model
+model_tracker_style: sampler

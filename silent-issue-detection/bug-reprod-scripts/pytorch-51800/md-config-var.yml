@@ -1,0 +1,5 @@
+pyscript: mnist_51800_buggy.py
+models_to_track: 
+  - model
+modules_to_instr:
+  - torch

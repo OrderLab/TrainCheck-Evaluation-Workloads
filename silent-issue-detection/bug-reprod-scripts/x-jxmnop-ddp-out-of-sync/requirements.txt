@@ -1,0 +1,6 @@
+torch==2.2.2
+transformers==4.40.2
+accelerate
+datasets
+psutil
+pandas

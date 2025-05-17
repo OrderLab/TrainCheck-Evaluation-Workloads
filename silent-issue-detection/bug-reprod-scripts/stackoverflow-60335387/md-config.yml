@@ -1,0 +1,3 @@
+pyscript: bug_short_collect_trace.py
+models_to_track:
+- model

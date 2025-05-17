@@ -1,0 +1,4 @@
+pyscript: bug_short_collect_trace.py
+modules_to_instr:
+  - torch
+proxy_module: model_transfer

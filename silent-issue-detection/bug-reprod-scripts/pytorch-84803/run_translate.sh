@@ -1,0 +1,23 @@
+python translation.py \
+    --model_name_or_path facebook/m2m100_418M \
+    --do_train \
+    --do_eval \
+    --do_predict \
+    --evaluation_strategy epoch \
+    --num_train_epochs 10 \
+    --max_source_length 512 \
+    --val_max_target_length 512 \
+    --source_lang en \
+    --target_lang ro \
+    --dataset_name wmt16 \
+    --dataset_config_name ro-en \
+    --max_train_samples 100 \
+    --max_eval_samples 100 \
+    --max_predict_samples 100 \
+    --logging_dir ./logs \
+    --logging_steps 100 \
+    --output_dir /tmp/tst-translation \
+    --per_device_train_batch_size=4 \
+    --per_device_eval_batch_size=4 \
+    --overwrite_output_dir \
+    --predict_with_generate

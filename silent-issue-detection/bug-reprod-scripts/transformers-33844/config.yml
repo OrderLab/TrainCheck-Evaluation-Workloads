@@ -1,0 +1,4 @@
+pyscript: bug.py
+modules_to_instr:
+  - torch
+  - transformers
