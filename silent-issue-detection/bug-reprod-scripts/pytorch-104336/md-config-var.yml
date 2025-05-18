@@ -1,0 +1,4 @@
+pyscript: ddp-resnet18-cifar10-short.py
+models_to_track:
+  - model
+model_tracker_style: sampler

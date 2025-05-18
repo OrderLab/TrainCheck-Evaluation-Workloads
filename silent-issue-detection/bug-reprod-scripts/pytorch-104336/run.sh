@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 python3 ddp-resnet18-cifar10.py
