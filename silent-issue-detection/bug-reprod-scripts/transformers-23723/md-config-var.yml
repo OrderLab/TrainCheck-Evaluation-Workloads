@@ -1,0 +1,3 @@
+pyscript: bug.py
+modules_to_instr:
+  - transformers

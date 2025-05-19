@@ -1,0 +1,3 @@
+pyscript: mnist.py
+models_to_track:
+- model

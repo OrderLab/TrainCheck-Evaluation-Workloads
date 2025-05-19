@@ -1,4 +1,6 @@
-transformers<=4.29.2
+# transformers==4.30.0.dev0
+# git+https://github.com/huggingface/transformers/tree/003a0cf8cc4d78e47ef9debfb1e93a5c1197ca9a@2acedf47214d7a634c193846124832a4686cc8fd
+git+https://github.com/huggingface/transformers.git@003a0cf8cc4d78e47ef9debfb1e93a5c1197ca9a
 accelerate
 librosa
 soundfile

@@ -8,7 +8,7 @@ processor = WhisperProcessor.from_pretrained("openai/whisper-tiny", language="En
 processor = WhisperProcessor.from_pretrained("openai/whisper-tiny", language="English", task="transcribe")
 model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-tiny")
 
-it = iter(load_dataset("librispeech_asr", "all", split="test.other", streaming=True))
+it = iter(load_dataset("librispeech_asr", "all", split="test.other", streaming=True, trust_remote_code=True))
 while it:
   _ = [next(it) for x in range(3)]
   clip = next(it)
@@ -18,8 +18,13 @@ while it:
 input_features = processor(clip['audio']['array'], sampling_rate=clip['audio']['sampling_rate'], return_tensors="pt").input_features
 
 
+
+import traincheck
+
+traincheck.annotate_answer_start_token_ids(processor.tokenizer.additional_special_tokens_ids[1], include_start_token=True)
+
 # Example of it not limiting generation to max_new_tokens when prompt_ids length too large 
-long_prompt = 5 * "Bubalina is a subtribe of wild cattle that includes the various species of true buffalo. Species include the African buffalo, the anoas, and the wild water buffalo (including the domesticated variant water buffalo. Buffaloes can be found naturally in sub-Saharan Africa, South Asia and Southeast Asia, and domestic and feral populations have been introduced to Europe, the Americas, and Australia. In addition to the living species, bubalinans have an extensive fossil record where remains have been found in much of Afro-Eurasia."
+long_prompt = 10 * "Bubalina is a subtribe of wild cattle that includes the various species of true buffalo. Species include the African buffalo, the anoas, and the wild water buffalo (including the domesticated variant water buffalo. Buffaloes can be found naturally in sub-Saharan Africa, South Asia and Southeast Asia, and domestic and feral populations have been introduced to Europe, the Americas, and Australia. In addition to the living species, bubalinans have an extensive fossil record where remains have been found in much of Afro-Eurasia."
 prompt_ids = processor.get_prompt_ids(long_prompt)
 pred_ids = model.generate(input_features, language="english", task="transcribe", max_new_tokens=10, prompt_ids=prompt_ids)
 decoded = processor.decode(pred_ids[0], skip_special_tokens=True)
