@@ -1,0 +1,148 @@
+{
+    "invariant": {
+        "text_description": "torch.nn. has distinct input arguments on difference PT for each step",
+        "relation": "DistinctArgumentRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch._C.TensorBase.normal_"
+            }
+        ],
+        "precondition": {
+            "distinct_arg": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": "Unconditional"
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 300,
+        "num_negative_examples": 0
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 220921950442175,
+    "detection_time_percentage": 0.1809475187751807,
+    "trace": [
+        {
+            "func_call_id": "0d736a0963ca405d81a61d809b0f5f30_220921821584445",
+            "thread_id": 140380855723840,
+            "process_id": 169356,
+            "meta_vars.step": 0,
+            "type": "function_call (pre)",
+            "function": "torch._C.TensorBase.normal_",
+            "is_bound_method": false,
+            "obj_id": null,
+            "args": {
+                "0": {
+                    "torch.FloatTensor": {
+                        "_ML_DAIKON_data_ID": 140374591933792,
+                        "dtype": "torch.float32",
+                        "grad": null,
+                        "grad_fn": null,
+                        "is_cpu": true,
+                        "is_cuda": false,
+                        "is_ipu": false,
+                        "is_leaf": true,
+                        "is_meta": false,
+                        "is_mkldnn": false,
+                        "is_mps": false,
+                        "is_mtia": false,
+                        "is_nested": false,
+                        "is_ort": false,
+                        "is_quantized": false,
+                        "is_sparse": false,
+                        "is_sparse_csr": false,
+                        "is_vulkan": false,
+                        "is_xla": false,
+                        "is_xpu": false,
+                        "itemsize": 4,
+                        "name": null,
+                        "nbytes": 2359296,
+                        "ndim": 2,
+                        "requires_grad": false,
+                        "retains_grad": false,
+                        "shape": [
+                            768,
+                            768
+                        ]
+                    }
+                },
+                "1": {
+                    "float": 0.0
+                },
+                "2": {
+                    "float": 0.02
+                }
+            },
+            "kwargs": {
+                "generator": {
+                    "NoneType": null
+                }
+            },
+            "time": 220921822569069,
+            "return_values": NaN
+        },
+        {
+            "func_call_id": "0d736a0963ca405d81a61d809b0f5f30_220921949468372",
+            "thread_id": 140380855723840,
+            "process_id": 169356,
+            "meta_vars.step": 0,
+            "type": "function_call (pre)",
+            "function": "torch._C.TensorBase.normal_",
+            "is_bound_method": false,
+            "obj_id": null,
+            "args": {
+                "0": {
+                    "torch.FloatTensor": {
+                        "_ML_DAIKON_data_ID": 140374591933792,
+                        "dtype": "torch.float32",
+                        "grad": null,
+                        "grad_fn": null,
+                        "is_cpu": true,
+                        "is_cuda": false,
+                        "is_ipu": false,
+                        "is_leaf": true,
+                        "is_meta": false,
+                        "is_mkldnn": false,
+                        "is_mps": false,
+                        "is_mtia": false,
+                        "is_nested": false,
+                        "is_ort": false,
+                        "is_quantized": false,
+                        "is_sparse": false,
+                        "is_sparse_csr": false,
+                        "is_vulkan": false,
+                        "is_xla": false,
+                        "is_xpu": false,
+                        "itemsize": 4,
+                        "name": null,
+                        "nbytes": 2359296,
+                        "ndim": 2,
+                        "requires_grad": false,
+                        "retains_grad": false,
+                        "shape": [
+                            768,
+                            768
+                        ]
+                    }
+                },
+                "1": {
+                    "float": 0.0
+                },
+                "2": {
+                    "float": 0.02
+                }
+            },
+            "kwargs": {
+                "generator": {
+                    "NoneType": null
+                }
+            },
+            "time": 220921950442175,
+            "return_values": NaN
+        }
+    ]
+}

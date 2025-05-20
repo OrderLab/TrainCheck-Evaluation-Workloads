@@ -1,0 +1,55 @@
+{
+    "invariant": {
+        "text_description": "FunctionCoverRelation between mmpretrain.mock.freeze_stages and torch.nn.modules.module.Module.train",
+        "relation": "FunctionCoverRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "mmpretrain.mock.freeze_stages"
+            },
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.nn.modules.module.Module.train"
+            }
+        ],
+        "precondition": {
+            "func_cover": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": "Unconditional"
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 2,
+        "num_negative_examples": 0
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 19876858258226245,
+    "detection_time_percentage": 0.0,
+    "trace": [
+        {
+            "func_call_id": "b39a4a81b2c24473ba916ab1832fbf12_19876858258179739",
+            "thread_id": 140254285555520,
+            "process_id": 3499981,
+            "meta_vars.step": 0,
+            "type": "function_call (pre)",
+            "function": "torch.nn.modules.module.Module.train",
+            "is_bound_method": true,
+            "obj_id": 140251413994912,
+            "args": {
+                "0": {
+                    "torch._ops.torch.ops": {}
+                },
+                "1": {
+                    "str": "/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torchvision/_C.so"
+                }
+            },
+            "kwargs": {},
+            "time": 19876858258226245,
+            "return_values": NaN
+        }
+    ]
+}

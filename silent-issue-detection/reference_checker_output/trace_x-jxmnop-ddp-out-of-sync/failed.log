@@ -1,0 +1,163 @@
+{
+    "invariant": {
+        "text_description": "Consistency Relation between torch.nn.Parameter.data and torch.nn.Parameter.data",
+        "relation": "ConsistencyRelation",
+        "params": [
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "data"
+            },
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "data"
+            }
+        ],
+        "precondition": {
+            "var": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "unequal",
+                                "prop_name": "process_id",
+                                "additional_path": "None",
+                                "prop_dtype": "int"
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "attributes._ML_DAIKON_data_ID",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "thread_id",
+                                "additional_path": "None",
+                                "prop_dtype": "int"
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "meta_vars._DATA_PARALLEL_RANK",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            },
+                            {
+                                "type": "consistent",
+                                "prop_name": "attributes.nbytes",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            },
+                            {
+                                "type": "consistent",
+                                "prop_name": "meta_vars.step",
+                                "additional_path": "None",
+                                "prop_dtype": "int"
+                            },
+                            {
+                                "type": "consistent",
+                                "prop_name": "attributes.ndim",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 448,
+        "num_negative_examples": 2352
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 123299970638648,
+    "detection_time_percentage": 0.04154068973810064,
+    "trace": [
+        {
+            "var_name": "model.embeddings.LayerNorm.weight",
+            "var_type": "torch.nn.Parameter",
+            "process_id": 89558,
+            "thread_id": 140625926412096,
+            "meta_vars.step": 0,
+            "meta_vars.stage": "init",
+            "meta_vars._DATA_PARALLEL_RANK": "1",
+            "type": "state_change",
+            "attributes._ML_DAIKON_data_ID": 140621279056480,
+            "attributes.data": -6632137616581406178,
+            "attributes.dtype": "torch.float32",
+            "attributes.grad": null,
+            "attributes.grad_fn": null,
+            "attributes.is_cpu": true,
+            "attributes.is_cuda": false,
+            "attributes.is_ipu": false,
+            "attributes.is_leaf": true,
+            "attributes.is_meta": false,
+            "attributes.is_mkldnn": false,
+            "attributes.is_mps": false,
+            "attributes.is_mtia": false,
+            "attributes.is_nested": false,
+            "attributes.is_ort": false,
+            "attributes.is_quantized": false,
+            "attributes.is_sparse": false,
+            "attributes.is_sparse_csr": false,
+            "attributes.is_vulkan": false,
+            "attributes.is_xla": false,
+            "attributes.is_xpu": false,
+            "attributes.itemsize": 4,
+            "attributes.name": null,
+            "attributes.nbytes": 3072,
+            "attributes.ndim": 1,
+            "attributes.requires_grad": true,
+            "attributes.retains_grad": false,
+            "attributes.shape": [
+                768
+            ],
+            "time": 123299970638648,
+            "attributes._ML_DAIKON_grad_ID": NaN
+        },
+        {
+            "var_name": "model.embeddings.LayerNorm.bias",
+            "var_type": "torch.nn.Parameter",
+            "process_id": 89557,
+            "thread_id": 140661207828288,
+            "meta_vars.step": 0,
+            "meta_vars.stage": "init",
+            "meta_vars._DATA_PARALLEL_RANK": "0",
+            "type": "state_change",
+            "attributes._ML_DAIKON_data_ID": 140656561411776,
+            "attributes.data": 675551691584042590,
+            "attributes.dtype": "torch.float32",
+            "attributes.grad": null,
+            "attributes.grad_fn": null,
+            "attributes.is_cpu": true,
+            "attributes.is_cuda": false,
+            "attributes.is_ipu": false,
+            "attributes.is_leaf": true,
+            "attributes.is_meta": false,
+            "attributes.is_mkldnn": false,
+            "attributes.is_mps": false,
+            "attributes.is_mtia": false,
+            "attributes.is_nested": false,
+            "attributes.is_ort": false,
+            "attributes.is_quantized": false,
+            "attributes.is_sparse": false,
+            "attributes.is_sparse_csr": false,
+            "attributes.is_vulkan": false,
+            "attributes.is_xla": false,
+            "attributes.is_xpu": false,
+            "attributes.itemsize": 4,
+            "attributes.name": null,
+            "attributes.nbytes": 3072,
+            "attributes.ndim": 1,
+            "attributes.requires_grad": true,
+            "attributes.retains_grad": false,
+            "attributes.shape": [
+                768
+            ],
+            "time": 123297988837864,
+            "attributes._ML_DAIKON_grad_ID": NaN
+        }
+    ]
+}

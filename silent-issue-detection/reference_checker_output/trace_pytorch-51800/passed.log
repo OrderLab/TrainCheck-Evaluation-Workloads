@@ -1,0 +1,30 @@
+{
+    "invariant": {
+        "text_description": "FunctionLeadRelation between torch.nn.modules.module.Module.eval and torch.nn.modules.module.Module.train",
+        "relation": "FunctionLeadRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.nn.modules.module.Module.eval"
+            },
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.nn.modules.module.Module.train"
+            }
+        ],
+        "precondition": {
+            "func_lead": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": "Unconditional"
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 2,
+        "num_negative_examples": 0
+    },
+    "check_passed": true,
+    "triggered": true
+}

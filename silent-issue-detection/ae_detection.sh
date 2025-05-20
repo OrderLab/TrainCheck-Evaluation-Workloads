@@ -1,0 +1,10 @@
+traincheck-check -i invariants_deepspeed-1801-fp16.json -f trace_deepspeed-1801 -o checker_output
+traincheck-check -i invariants_mmpretrain-702.json -f trace_mmpretrain-702 -o checker_output
+traincheck-check -i invariants_pytorch-51800.json -f trace_pytorch-51800 -o checker_output
+traincheck-check -i invariants_pytorch-104336.json -f trace_pytorch-104336 -o checker_output
+traincheck-check -i invariants_pytorch-115607.json -f trace_pytorch-115607 -o checker_output
+traincheck-check -i invariants_stackoverflow-60335387.json -f trace_stackoverflow-60335387 -o checker_output
+traincheck-check -i invariants_transformers-17877.json -f trace_transformers-17877 -o checker_output
+traincheck-check -i invariants_transformers-23723.json -f trace_transformers-23723 -o checker_output
+traincheck-check -i invariants_transformers-33844.json -f trace_transformers-33844 -o checker_output
+traincheck-check -i invariants_pytorch-104336.json -f trace_x-jxmnop-ddp-out-of-sync -o checker_output

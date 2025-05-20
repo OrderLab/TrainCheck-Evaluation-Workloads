@@ -1,0 +1,263 @@
+{
+    "invariant": {
+        "text_description": "transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration.forward contains transformers.modeling_flash_attention_utils._flash_attention_forward <class 'traincheck.invariant.base_cls._NOT_SET'>",
+        "relation": "APIContainRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration.forward",
+                "arguments": null
+            },
+            {
+                "param_type": "APIParam",
+                "api_full_name": "transformers.modeling_flash_attention_utils._flash_attention_forward",
+                "arguments": {
+                    "args": {
+                        "dropout": {
+                            "float": 0.0
+                        },
+                        "is_causal": {
+                            "bool": true
+                        },
+                        "use_top_left_mask": {
+                            "bool": false
+                        },
+                        "query_states": {
+                            "torch.cuda.HalfTensor": {
+                                "dtype": "torch.float16",
+                                "is_cpu": false,
+                                "is_cuda": true,
+                                "is_ipu": false,
+                                "is_leaf": true,
+                                "is_meta": false,
+                                "is_mkldnn": false,
+                                "is_mps": false,
+                                "is_mtia": false,
+                                "is_nested": false,
+                                "is_ort": false,
+                                "is_quantized": false,
+                                "is_sparse": false,
+                                "is_sparse_csr": false,
+                                "is_vulkan": false,
+                                "is_xla": false,
+                                "is_xpu": false,
+                                "itemsize": 2,
+                                "nbytes": 20480,
+                                "ndim": 4,
+                                "requires_grad": false,
+                                "retains_grad": false
+                            }
+                        },
+                        "key_states": {
+                            "torch.cuda.HalfTensor": {
+                                "dtype": "torch.float16",
+                                "is_cpu": false,
+                                "is_cuda": true,
+                                "is_ipu": false,
+                                "is_leaf": true,
+                                "is_meta": false,
+                                "is_mkldnn": false,
+                                "is_mps": false,
+                                "is_mtia": false,
+                                "is_nested": false,
+                                "is_ort": false,
+                                "is_quantized": false,
+                                "is_sparse": false,
+                                "is_sparse_csr": false,
+                                "is_vulkan": false,
+                                "is_xla": false,
+                                "is_xpu": false,
+                                "itemsize": 2,
+                                "nbytes": 20480,
+                                "ndim": 4,
+                                "requires_grad": false,
+                                "retains_grad": false
+                            }
+                        },
+                        "value_states": {
+                            "torch.cuda.HalfTensor": {
+                                "dtype": "torch.float16",
+                                "is_cpu": false,
+                                "is_cuda": true,
+                                "is_ipu": false,
+                                "is_leaf": true,
+                                "is_meta": false,
+                                "is_mkldnn": false,
+                                "is_mps": false,
+                                "is_mtia": false,
+                                "is_nested": false,
+                                "is_ort": false,
+                                "is_quantized": false,
+                                "is_sparse": false,
+                                "is_sparse_csr": false,
+                                "is_vulkan": false,
+                                "is_xla": false,
+                                "is_xpu": false,
+                                "itemsize": 2,
+                                "nbytes": 20480,
+                                "ndim": 4,
+                                "requires_grad": false,
+                                "retains_grad": false
+                            }
+                        },
+                        "attention_mask": {
+                            "NoneType": null
+                        },
+                        "query_length": {
+                            "int": 10
+                        }
+                    },
+                    "func_name": "transformers.modeling_flash_attention_utils._flash_attention_forward"
+                }
+            }
+        ],
+        "precondition": {
+            "parent_func_call_pre": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.stage",
+                                "additional_path": "None",
+                                "prop_dtype": "str",
+                                "values": [
+                                    "testing"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 72,
+        "num_negative_examples": 0
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 215514376348932,
+    "detection_time_percentage": 0.8071958874735924,
+    "trace": [
+        {
+            "func_call_id": "228b825f8cd54381b9ac1a077d8c4a06_215514373281483",
+            "thread_id": 140319400441664,
+            "process_id": 163382,
+            "meta_vars.step": 0,
+            "type": "function_call (pre)",
+            "function": "transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration.forward",
+            "is_bound_method": true,
+            "obj_id": 140319389305152,
+            "args": {
+                "0": {
+                    "transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration": {
+                        "base_model_prefix": "model",
+                        "call_super_init": false,
+                        "dtype": "torch.bfloat16",
+                        "dump_patches": false,
+                        "framework": "pt",
+                        "is_gradient_checkpointing": false,
+                        "is_parallelizable": false,
+                        "main_input_name": "input_ids",
+                        "model_tags": null,
+                        "name_or_path": "facebook/m2m100_418M",
+                        "supports_gradient_checkpointing": true,
+                        "training": false
+                    }
+                }
+            },
+            "kwargs": {
+                "input_ids": {
+                    "torch.cuda.LongTensor": {
+                        "_ML_DAIKON_data_ID": 140309876697392,
+                        "dtype": "torch.int64",
+                        "grad": null,
+                        "grad_fn": null,
+                        "is_cpu": false,
+                        "is_cuda": true,
+                        "is_ipu": false,
+                        "is_leaf": true,
+                        "is_meta": false,
+                        "is_mkldnn": false,
+                        "is_mps": false,
+                        "is_mtia": false,
+                        "is_nested": false,
+                        "is_ort": false,
+                        "is_quantized": false,
+                        "is_sparse": false,
+                        "is_sparse_csr": false,
+                        "is_vulkan": false,
+                        "is_xla": false,
+                        "is_xpu": false,
+                        "itemsize": 8,
+                        "name": null,
+                        "nbytes": 72,
+                        "ndim": 2,
+                        "requires_grad": false,
+                        "retains_grad": false,
+                        "shape": [
+                            1,
+                            9
+                        ]
+                    }
+                },
+                "decoder_input_ids": {
+                    "torch.cuda.LongTensor": {
+                        "_ML_DAIKON_data_ID": 140309876702192,
+                        "dtype": "torch.int64",
+                        "grad": null,
+                        "grad_fn": null,
+                        "is_cpu": false,
+                        "is_cuda": true,
+                        "is_ipu": false,
+                        "is_leaf": true,
+                        "is_meta": false,
+                        "is_mkldnn": false,
+                        "is_mps": false,
+                        "is_mtia": false,
+                        "is_nested": false,
+                        "is_ort": false,
+                        "is_quantized": false,
+                        "is_sparse": false,
+                        "is_sparse_csr": false,
+                        "is_vulkan": false,
+                        "is_xla": false,
+                        "is_xpu": false,
+                        "itemsize": 8,
+                        "name": null,
+                        "nbytes": 8,
+                        "ndim": 2,
+                        "requires_grad": false,
+                        "retains_grad": false,
+                        "shape": [
+                            1,
+                            1
+                        ]
+                    }
+                }
+            },
+            "time": 215514376348932,
+            "return_values": NaN,
+            "meta_vars.stage": "testing",
+            "meta_vars.context_managers.torch.cuda.amp.autocast_mode.autocast": {
+                "self": {},
+                "dtype": {
+                    "torch.dtype": "torch.float16"
+                },
+                "cache_enabled": {
+                    "bool": true
+                },
+                "enabled": {
+                    "bool": true
+                }
+            },
+            "meta_vars.context_managers.torch.amp.autocast_mode.autocast": {
+                "self": {},
+                "device_type": "cuda",
+                "enabled": true,
+                "dtype": "torch.float16",
+                "cache_enabled": true
+            }
+        }
+    ]
+}

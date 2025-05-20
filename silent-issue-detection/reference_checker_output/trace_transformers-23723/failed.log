@@ -1,0 +1,136 @@
+{
+    "invariant": {
+        "text_description": "Output tensor's value at ('_ML_DAIKON_RESPONSE_LENGTHS', 0) is consistently less than or equal to the max input threshold max_new_tokens for the function transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate.",
+        "relation": "ThresholdRelation",
+        "params": [
+            {
+                "param_type": "InputOutputParam",
+                "name": "max_new_tokens",
+                "index": null,
+                "type": "<class 'int'>",
+                "additional_path": null,
+                "api_name": "transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate",
+                "is_input": true
+            },
+            {
+                "param_type": "APIParam",
+                "api_full_name": "transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate"
+            },
+            {
+                "param_type": "InputOutputParam",
+                "name": "output_tensors",
+                "index": 0,
+                "type": "torch.Tensor",
+                "additional_path": [
+                    "_ML_DAIKON_RESPONSE_LENGTHS",
+                    0
+                ],
+                "api_name": "transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate",
+                "is_input": false
+            }
+        ],
+        "precondition": {
+            "pre_event": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": "Unconditional"
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": null,
+        "num_negative_examples": null
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 167920381566113,
+    "detection_time_percentage": 0.09192079304881712,
+    "trace": [
+        {
+            "func_call_id": "203826b871ff4428afdbc22a9c0666ee_167920370971496",
+            "thread_id": 139745845135168,
+            "process_id": 139447,
+            "meta_vars.step": 0,
+            "type": "function_call (pre)",
+            "function": "transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate",
+            "is_bound_method": true,
+            "obj_id": 139739669170016,
+            "args": {
+                "0": {
+                    "transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration": {
+                        "base_model_prefix": "model",
+                        "call_super_init": false,
+                        "dtype": "torch.float32",
+                        "dump_patches": false,
+                        "framework": "pt",
+                        "is_gradient_checkpointing": false,
+                        "is_loaded_in_8bit": false,
+                        "is_parallelizable": false,
+                        "main_input_name": "input_features",
+                        "name_or_path": "openai/whisper-tiny",
+                        "supports_gradient_checkpointing": true,
+                        "training": false
+                    }
+                },
+                "1": {
+                    "torch.FloatTensor": {
+                        "_ML_DAIKON_data_ID": 139735317259632,
+                        "dtype": "torch.float32",
+                        "grad": null,
+                        "grad_fn": null,
+                        "is_cpu": true,
+                        "is_cuda": false,
+                        "is_ipu": false,
+                        "is_leaf": true,
+                        "is_meta": false,
+                        "is_mkldnn": false,
+                        "is_mps": false,
+                        "is_mtia": false,
+                        "is_nested": false,
+                        "is_ort": false,
+                        "is_quantized": false,
+                        "is_sparse": false,
+                        "is_sparse_csr": false,
+                        "is_vulkan": false,
+                        "is_xla": false,
+                        "is_xpu": false,
+                        "itemsize": 4,
+                        "name": null,
+                        "nbytes": 960000,
+                        "ndim": 3,
+                        "requires_grad": false,
+                        "retains_grad": false,
+                        "shape": [
+                            1,
+                            80,
+                            3000
+                        ]
+                    }
+                }
+            },
+            "kwargs": {
+                "language": {
+                    "str": "english"
+                },
+                "task": {
+                    "str": "transcribe"
+                },
+                "max_new_tokens": {
+                    "int": 10
+                },
+                "prompt_ids": {
+                    "ndarray": {
+                        "base": null,
+                        "itemsize": 8,
+                        "nbytes": 9200,
+                        "ndim": 1,
+                        "size": 1150
+                    }
+                }
+            },
+            "time": 167920381566113,
+            "return_values": NaN
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "invariant": {
+        "text_description": "FunctionCoverRelation between torch.nn.modules.module.Module.train and torch.nn.modules.module.Module.eval",
+        "relation": "FunctionCoverRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.nn.modules.module.Module.train"
+            },
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.nn.modules.module.Module.eval"
+            }
+        ],
+        "precondition": {
+            "func_cover": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": "Unconditional"
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 2,
+        "num_negative_examples": 0
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 19876858668088743,
+    "detection_time_percentage": 0.011360259618060605,
+    "trace": [
+        {
+            "var_name": NaN,
+            "var_type": NaN,
+            "mode": NaN,
+            "dump_loc": NaN,
+            "process_id": 3499981,
+            "thread_id": 140254285555520,
+            "time": 19876858668088743,
+            "meta_vars.step": 0,
+            "attributes._ML_DAIKON_data_ID": NaN,
+            "attributes.data": NaN,
+            "attributes.dtype": NaN,
+            "attributes.grad": NaN,
+            "attributes.grad_fn": NaN,
+            "attributes.is_cpu": NaN,
+            "attributes.is_cuda": NaN,
+            "attributes.is_ipu": NaN,
+            "attributes.is_leaf": NaN,
+            "attributes.is_meta": NaN,
+            "attributes.is_mkldnn": NaN,
+            "attributes.is_mps": NaN,
+            "attributes.is_mtia": NaN,
+            "attributes.is_nested": NaN,
+            "attributes.is_ort": NaN,
+            "attributes.is_quantized": NaN,
+            "attributes.is_sparse": NaN,
+            "attributes.is_sparse_csr": NaN,
+            "attributes.is_vulkan": NaN,
+            "attributes.is_xla": NaN,
+            "attributes.is_xpu": NaN,
+            "attributes.itemsize": NaN,
+            "attributes.name": NaN,
+            "attributes.nbytes": NaN,
+            "attributes.ndim": NaN,
+            "attributes.requires_grad": NaN,
+            "attributes.retains_grad": NaN,
+            "attributes.shape": NaN,
+            "type": "function_call (pre)",
+            "attributes._ML_DAIKON_grad_ID": NaN,
+            "func_call_id": "b39a4a81b2c24473ba916ab1832fbf12_19876858668012869",
+            "function": "torch.nn.modules.module.Module.eval",
+            "is_bound_method": true,
+            "obj_id": 140250960790096,
+            "args": {
+                "0": {
+                    "__main__.SimpleCNN": {
+                        "call_super_init": false,
+                        "dump_patches": false,
+                        "training": true
+                    }
+                }
+            },
+            "kwargs": {},
+            "return_values": NaN,
+            "exception": NaN,
+            "exception_msg": NaN,
+            "proxy_obj_names": NaN
+        }
+    ]
+}

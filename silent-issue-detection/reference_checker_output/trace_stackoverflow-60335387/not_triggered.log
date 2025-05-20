@@ -1,0 +1,40 @@
+{
+    "invariant": {
+        "text_description": "FunctionCoverRelation between torch.optim.adam.Adam.step and torch.optim.optimizer.Optimizer.zero_grad",
+        "relation": "FunctionCoverRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.optim.adam.Adam.step"
+            },
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.optim.optimizer.Optimizer.zero_grad"
+            }
+        ],
+        "precondition": {
+            "func_cover": {
+                "inverted": true,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.step",
+                                "additional_path": "None",
+                                "prop_dtype": "int",
+                                "values": [
+                                    0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 152,
+        "num_negative_examples": 1
+    },
+    "check_passed": true,
+    "triggered": false
+}

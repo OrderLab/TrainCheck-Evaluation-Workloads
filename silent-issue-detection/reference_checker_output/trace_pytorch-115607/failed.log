@@ -1,0 +1,334 @@
+{
+    "invariant": {
+        "text_description": "TBD merged",
+        "relation": "APIContainRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.optim.optimizer.Optimizer.zero_grad"
+            },
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "grad",
+                "pre_value": "non_zero",
+                "post_value": null
+            }
+        ],
+        "precondition": {
+            "parent_func_call_pre": {
+                "inverted": true,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.step",
+                                "additional_path": "None",
+                                "prop_dtype": "int",
+                                "values": [
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.stage",
+                                "additional_path": "None",
+                                "prop_dtype": "str",
+                                "values": [
+                                    "testing",
+                                    "init"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 20,
+        "num_negative_examples": 1
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 128603344439325,
+    "detection_time_percentage": 0.1227397666909082,
+    "trace": [
+        {
+            "func_call_id": "576189cc879643629f9be54778d35634_128603344265094",
+            "thread_id": 140019985672000,
+            "process_id": 102306,
+            "meta_vars.step": 6,
+            "meta_vars.stage": "training",
+            "type": "function_call (pre)",
+            "function": "torch.optim.optimizer.Optimizer.zero_grad",
+            "is_bound_method": true,
+            "obj_id": 140013470666176,
+            "args": {
+                "0": {
+                    "torch.optim.adadelta.Adadelta": {}
+                }
+            },
+            "kwargs": {},
+            "time": 128603344439325,
+            "return_values": NaN,
+            "var_name": NaN,
+            "var_type": NaN,
+            "mode": NaN,
+            "dump_loc": NaN,
+            "attributes._ML_DAIKON_data_ID": NaN,
+            "attributes.data": NaN,
+            "attributes.dtype": NaN,
+            "attributes.grad": NaN,
+            "attributes.grad_fn": NaN,
+            "attributes.is_cpu": NaN,
+            "attributes.is_cuda": NaN,
+            "attributes.is_ipu": NaN,
+            "attributes.is_leaf": NaN,
+            "attributes.is_meta": NaN,
+            "attributes.is_mkldnn": NaN,
+            "attributes.is_mps": NaN,
+            "attributes.is_mtia": NaN,
+            "attributes.is_nested": NaN,
+            "attributes.is_ort": NaN,
+            "attributes.is_quantized": NaN,
+            "attributes.is_sparse": NaN,
+            "attributes.is_sparse_csr": NaN,
+            "attributes.is_vulkan": NaN,
+            "attributes.is_xla": NaN,
+            "attributes.is_xpu": NaN,
+            "attributes.itemsize": NaN,
+            "attributes.name": NaN,
+            "attributes.nbytes": NaN,
+            "attributes.ndim": NaN,
+            "attributes.requires_grad": NaN,
+            "attributes.retains_grad": NaN,
+            "attributes.shape": NaN,
+            "attributes._ML_DAIKON_grad_ID": NaN,
+            "exception": NaN,
+            "exception_msg": NaN,
+            "proxy_obj_names": NaN
+        }
+    ]
+}
+{
+    "invariant": {
+        "text_description": "TBD merged",
+        "relation": "APIContainRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.optim.adadelta.Adadelta.step"
+            },
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "data",
+                "pre_value": "non_zero",
+                "post_value": "non_zero"
+            }
+        ],
+        "precondition": {
+            "parent_func_call_pre": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.stage",
+                                "additional_path": "None",
+                                "prop_dtype": "str",
+                                "values": [
+                                    "training"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 21,
+        "num_negative_examples": 0
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 128603179856747,
+    "detection_time_percentage": 0.1205795854431698,
+    "trace": [
+        {
+            "func_call_id": "576189cc879643629f9be54778d35634_128603179743714",
+            "thread_id": 140019985672000,
+            "process_id": 102306,
+            "meta_vars.step": 5,
+            "meta_vars.stage": "training",
+            "type": "function_call (pre)",
+            "function": "torch.optim.adadelta.Adadelta.step",
+            "is_bound_method": true,
+            "obj_id": 140013470666176,
+            "args": {
+                "0": {
+                    "torch.optim.adadelta.Adadelta": {}
+                }
+            },
+            "kwargs": {},
+            "time": 128603179856747,
+            "return_values": NaN,
+            "var_name": NaN,
+            "var_type": NaN,
+            "mode": NaN,
+            "dump_loc": NaN,
+            "attributes._ML_DAIKON_data_ID": NaN,
+            "attributes.data": NaN,
+            "attributes.dtype": NaN,
+            "attributes.grad": NaN,
+            "attributes.grad_fn": NaN,
+            "attributes.is_cpu": NaN,
+            "attributes.is_cuda": NaN,
+            "attributes.is_ipu": NaN,
+            "attributes.is_leaf": NaN,
+            "attributes.is_meta": NaN,
+            "attributes.is_mkldnn": NaN,
+            "attributes.is_mps": NaN,
+            "attributes.is_mtia": NaN,
+            "attributes.is_nested": NaN,
+            "attributes.is_ort": NaN,
+            "attributes.is_quantized": NaN,
+            "attributes.is_sparse": NaN,
+            "attributes.is_sparse_csr": NaN,
+            "attributes.is_vulkan": NaN,
+            "attributes.is_xla": NaN,
+            "attributes.is_xpu": NaN,
+            "attributes.itemsize": NaN,
+            "attributes.name": NaN,
+            "attributes.nbytes": NaN,
+            "attributes.ndim": NaN,
+            "attributes.requires_grad": NaN,
+            "attributes.retains_grad": NaN,
+            "attributes.shape": NaN,
+            "attributes._ML_DAIKON_grad_ID": NaN,
+            "exception": NaN,
+            "exception_msg": NaN,
+            "proxy_obj_names": NaN
+        }
+    ]
+}
+{
+    "invariant": {
+        "text_description": "TBD merged",
+        "relation": "APIContainRelation",
+        "params": [
+            {
+                "param_type": "APIParam",
+                "api_full_name": "torch.optim.adadelta.Adadelta.step"
+            },
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "grad",
+                "pre_value": null,
+                "post_value": "non_zero"
+            }
+        ],
+        "precondition": {
+            "parent_func_call_pre": {
+                "inverted": true,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.step",
+                                "additional_path": "None",
+                                "prop_dtype": "int",
+                                "values": [
+                                    1
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "clauses": [
+                            {
+                                "type": "constant",
+                                "prop_name": "meta_vars.stage",
+                                "additional_path": "None",
+                                "prop_dtype": "str",
+                                "values": [
+                                    "testing",
+                                    "init"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 20,
+        "num_negative_examples": 1
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 128603179856747,
+    "detection_time_percentage": 0.1205795854431698,
+    "trace": [
+        {
+            "func_call_id": "576189cc879643629f9be54778d35634_128603179743714",
+            "thread_id": 140019985672000,
+            "process_id": 102306,
+            "meta_vars.step": 5,
+            "meta_vars.stage": "training",
+            "type": "function_call (pre)",
+            "function": "torch.optim.adadelta.Adadelta.step",
+            "is_bound_method": true,
+            "obj_id": 140013470666176,
+            "args": {
+                "0": {
+                    "torch.optim.adadelta.Adadelta": {}
+                }
+            },
+            "kwargs": {},
+            "time": 128603179856747,
+            "return_values": NaN,
+            "var_name": NaN,
+            "var_type": NaN,
+            "mode": NaN,
+            "dump_loc": NaN,
+            "attributes._ML_DAIKON_data_ID": NaN,
+            "attributes.data": NaN,
+            "attributes.dtype": NaN,
+            "attributes.grad": NaN,
+            "attributes.grad_fn": NaN,
+            "attributes.is_cpu": NaN,
+            "attributes.is_cuda": NaN,
+            "attributes.is_ipu": NaN,
+            "attributes.is_leaf": NaN,
+            "attributes.is_meta": NaN,
+            "attributes.is_mkldnn": NaN,
+            "attributes.is_mps": NaN,
+            "attributes.is_mtia": NaN,
+            "attributes.is_nested": NaN,
+            "attributes.is_ort": NaN,
+            "attributes.is_quantized": NaN,
+            "attributes.is_sparse": NaN,
+            "attributes.is_sparse_csr": NaN,
+            "attributes.is_vulkan": NaN,
+            "attributes.is_xla": NaN,
+            "attributes.is_xpu": NaN,
+            "attributes.itemsize": NaN,
+            "attributes.name": NaN,
+            "attributes.nbytes": NaN,
+            "attributes.ndim": NaN,
+            "attributes.requires_grad": NaN,
+            "attributes.retains_grad": NaN,
+            "attributes.shape": NaN,
+            "attributes._ML_DAIKON_grad_ID": NaN,
+            "exception": NaN,
+            "exception_msg": NaN,
+            "proxy_obj_names": NaN
+        }
+    ]
+}

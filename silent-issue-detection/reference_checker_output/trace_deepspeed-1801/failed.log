@@ -1,0 +1,209 @@
+{
+    "invariant": {
+        "text_description": "Consistency Relation between torch.nn.Parameter.data and torch.nn.Parameter.data",
+        "relation": "ConsistencyRelation",
+        "params": [
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "data"
+            },
+            {
+                "param_type": "VarTypeParam",
+                "var_type": "torch.nn.Parameter",
+                "attr_name": "data"
+            }
+        ],
+        "precondition": {
+            "var": {
+                "inverted": false,
+                "preconditions": [
+                    {
+                        "clauses": [
+                            {
+                                "type": "unequal",
+                                "prop_name": "attributes._ML_DAIKON_data_ID",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "meta_vars._TENSOR_MODEL_PARALLEL_GROUP",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            },
+                            {
+                                "type": "constant",
+                                "prop_name": "attributes.partition_dim",
+                                "additional_path": "None",
+                                "prop_dtype": "float",
+                                "values": [
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "type": "constant",
+                                "prop_name": "attributes.nbytes",
+                                "additional_path": "None",
+                                "prop_dtype": "float",
+                                "values": [
+                                    128.0
+                                ]
+                            },
+                            {
+                                "type": "constant",
+                                "prop_name": "attributes.ndim",
+                                "additional_path": "None",
+                                "prop_dtype": "float",
+                                "values": [
+                                    1.0
+                                ]
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "process_id",
+                                "additional_path": "None",
+                                "prop_dtype": "int"
+                            },
+                            {
+                                "type": "consistent",
+                                "prop_name": "var_name",
+                                "additional_path": "None",
+                                "prop_dtype": "str"
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "thread_id",
+                                "additional_path": "None",
+                                "prop_dtype": "int"
+                            },
+                            {
+                                "type": "constant",
+                                "prop_name": "attributes.tensor_model_parallel",
+                                "additional_path": "None",
+                                "prop_dtype": "bool",
+                                "values": [
+                                    false
+                                ]
+                            },
+                            {
+                                "type": "unequal",
+                                "prop_name": "meta_vars._MODEL_PARALLEL_GROUP",
+                                "additional_path": "None",
+                                "prop_dtype": "float"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "num_positive_examples": 51,
+        "num_negative_examples": 9119
+    },
+    "check_passed": false,
+    "triggered": true,
+    "detection_time": 4699585353969,
+    "detection_time_percentage": 0.59987454140349,
+    "trace": [
+        {
+            "var_name": "model.module.3.mlp.dense_4h_to_h.bias",
+            "var_type": "torch.nn.Parameter",
+            "process_id": 27720,
+            "thread_id": 140342762137408,
+            "meta_vars.step": 2,
+            "meta_vars.stage": "training",
+            "meta_vars._TENSOR_MODEL_PARALLEL_GROUP": 0,
+            "meta_vars._PIPELINE_MODEL_PARALLEL_GROUP": 0,
+            "meta_vars._MODEL_PARALLEL_GROUP": 0,
+            "meta_vars._EMBEDDING_GROUP": 0,
+            "meta_vars._DATA_PARALLEL_GROUP": 0,
+            "type": "state_change",
+            "attributes._ML_DAIKON_data_ID": 140339110552304,
+            "attributes.data": -7402529759948834772,
+            "attributes.ds_pipe_replicated": false,
+            "attributes.dtype": "torch.bfloat16",
+            "attributes.grad": -1025064533910489824,
+            "attributes.grad_fn": null,
+            "attributes.is_cpu": false,
+            "attributes.is_cuda": true,
+            "attributes.is_ipu": false,
+            "attributes.is_leaf": true,
+            "attributes.is_meta": false,
+            "attributes.is_mkldnn": false,
+            "attributes.is_mps": false,
+            "attributes.is_mtia": false,
+            "attributes.is_nested": false,
+            "attributes.is_ort": false,
+            "attributes.is_quantized": false,
+            "attributes.is_sparse": false,
+            "attributes.is_sparse_csr": false,
+            "attributes.is_vulkan": false,
+            "attributes.is_xla": false,
+            "attributes.is_xpu": false,
+            "attributes.itemsize": 2,
+            "attributes.name": null,
+            "attributes.nbytes": 128,
+            "attributes.ndim": 1,
+            "attributes.partition_dim": -1,
+            "attributes.partition_stride": 1,
+            "attributes.requires_grad": true,
+            "attributes.retains_grad": false,
+            "attributes.shape": [
+                64
+            ],
+            "attributes.tensor_model_parallel": false,
+            "time": 4699585353969,
+            "attributes._ML_DAIKON_grad_ID": 140339110307744.0
+        },
+        {
+            "var_name": "model.module.3.mlp.dense_4h_to_h.bias",
+            "var_type": "torch.nn.Parameter",
+            "process_id": 27721,
+            "thread_id": 140237847541568,
+            "meta_vars.step": 2,
+            "meta_vars.stage": "training",
+            "meta_vars._TENSOR_MODEL_PARALLEL_GROUP": 1,
+            "meta_vars._PIPELINE_MODEL_PARALLEL_GROUP": 0,
+            "meta_vars._MODEL_PARALLEL_GROUP": 1,
+            "meta_vars._EMBEDDING_GROUP": 0,
+            "meta_vars._DATA_PARALLEL_GROUP": 0,
+            "type": "state_change",
+            "attributes._ML_DAIKON_data_ID": 140229412039600,
+            "attributes.data": 1633794080124799847,
+            "attributes.ds_pipe_replicated": false,
+            "attributes.dtype": "torch.bfloat16",
+            "attributes.grad": -1025064533910489824,
+            "attributes.grad_fn": null,
+            "attributes.is_cpu": false,
+            "attributes.is_cuda": true,
+            "attributes.is_ipu": false,
+            "attributes.is_leaf": true,
+            "attributes.is_meta": false,
+            "attributes.is_mkldnn": false,
+            "attributes.is_mps": false,
+            "attributes.is_mtia": false,
+            "attributes.is_nested": false,
+            "attributes.is_ort": false,
+            "attributes.is_quantized": false,
+            "attributes.is_sparse": false,
+            "attributes.is_sparse_csr": false,
+            "attributes.is_vulkan": false,
+            "attributes.is_xla": false,
+            "attributes.is_xpu": false,
+            "attributes.itemsize": 2,
+            "attributes.name": null,
+            "attributes.nbytes": 128,
+            "attributes.ndim": 1,
+            "attributes.partition_dim": -1,
+            "attributes.partition_stride": 1,
+            "attributes.requires_grad": true,
+            "attributes.retains_grad": false,
+            "attributes.shape": [
+                64
+            ],
+            "attributes.tensor_model_parallel": false,
+            "time": 4699585094636,
+            "attributes._ML_DAIKON_grad_ID": 140229411867200.0
+        }
+    ]
+}
