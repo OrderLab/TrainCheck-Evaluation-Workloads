@@ -1,0 +1,250 @@
+traincheck folder:  /home/yuxuan/gitrepos/ml-daikon/traincheck
+auto observer enabled with observing depth:  3
+observe only the function call at the depth
+log_files:  ['/home/yuxuan/gitrepos/ml-daikon/traincheck/static_analyzer/func_level/optim_func_level.log', '/home/yuxuan/gitrepos/ml-daikon/traincheck/static_analyzer/func_level/nn_func_level.log']
+Observe function: register_step_post_hook found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: zero_grad found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: get_swa_avg_fn found in module: <module 'torch.optim.swa_utils' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/swa_utils.py'>
+Observe function: step found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: get_swa_multi_avg_fn found in module: <module 'torch.optim.swa_utils' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/swa_utils.py'>
+Observe function: state_dict found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: adadelta found in module: <module 'torch.optim.adadelta' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/adadelta.py'>
+Observe function: adagrad found in module: <module 'torch.optim.adagrad' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/adagrad.py'>
+Observe function: adam found in module: <module 'torch.optim.adam' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/adam.py'>
+Observe function: adamw found in module: <module 'torch.optim.adamw' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/adamw.py'>
+Observe function: asgd found in module: <module 'torch.optim.asgd' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/asgd.py'>
+Observe function: register_step_pre_hook found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: radam found in module: <module 'torch.optim.radam' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/radam.py'>
+Observe function: nadam found in module: <module 'torch.optim.nadam' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/nadam.py'>
+Observe function: state_dict found in module: <class 'torch.optim.lr_scheduler.LRScheduler'>
+Observe function: rmsprop found in module: <module 'torch.optim.rmsprop' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/rmsprop.py'>
+Observe function: sgd found in module: <module 'torch.optim.sgd' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/sgd.py'>
+Observe function: adamax found in module: <module 'torch.optim.adamax' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/adamax.py'>
+Observe function: register_state_dict_pre_hook found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: print_lr found in module: <class 'torch.optim.lr_scheduler.LRScheduler'>
+Observe function: get_lr found in module: <class 'torch.optim.lr_scheduler.LRScheduler'>
+Observe function: get_last_lr found in module: <class 'torch.optim.lr_scheduler.LRScheduler'>
+Observe function: rprop found in module: <module 'torch.optim.rprop' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/optim/rprop.py'>
+Observe function: step found in module: <class 'torch.optim.lr_scheduler.LRScheduler'>
+Observe function: load_state_dict found in module: <class 'torch.optim.lr_scheduler.LRScheduler'>
+Observe function: register_state_dict_post_hook found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: add_param_group found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: load_state_dict found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: register_load_state_dict_post_hook found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: register_load_state_dict_pre_hook found in module: <class 'torch.optim.optimizer.Optimizer'>
+Observe function: obj_func found in module: <function LBFGS.step at 0x7f8ecddb43a0>
+Observe function: compute_mask found in module: <class 'torch.nn.utils.prune.BasePruningMethod'>
+Observe function: softmin found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: softmax found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: tanhshrink found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: softsign found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: forward found in module: <class 'torch.nn.modules.conv.ConvTranspose3d'>
+Observe function: forward found in module: <class 'torch.nn.modules.conv.ConvTranspose1d'>
+Observe function: forward found in module: <class 'torch.nn.modules.conv.ConvTranspose2d'>
+Observe function: batch_norm found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: apply_mask found in module: <class 'torch.nn.utils.prune.BasePruningMethod'>
+Observe function: zeros_ found in module: <module 'torch.nn.init' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/init.py'>
+Observe function: ones_ found in module: <module 'torch.nn.init' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/init.py'>
+Observe function: xavier_uniform_ found in module: <module 'torch.nn.init' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/init.py'>
+Observe function: adaptive_avg_pool2d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: adaptive_avg_pool3d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: extra_repr found in module: <class 'torch.nn.modules.rnn.RNNCellBase'>
+Observe function: multi_margin_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: forward found in module: <class 'torch.nn.modules.linear.Linear'>
+Observe function: reset_parameters found in module: <class 'torch.nn.modules.linear.Linear'>
+Observe function: margin_ranking_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: extra_repr found in module: <class 'torch.nn.modules.linear.Linear'>
+Observe function: cosine_embedding_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: train found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: eval found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: triplet_margin_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: compute_weight found in module: <class 'torch.nn.utils.spectral_norm.SpectralNorm'>
+Observe function: requires_grad_ found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: remove found in module: <class 'torch.nn.utils.spectral_norm.SpectralNorm'>
+Observe function: triplet_margin_with_distance_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: zero_grad found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: extra_repr found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: ctc_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: share_memory found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: compile found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: check_hidden_size found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: forward found in module: <class 'torch.nn.modules.conv.Conv3d'>
+Observe function: check_forward_args found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: permute_hidden found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: register_buffer found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: register_parameter found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: extra_repr found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: add_module found in module: <class 'torch.nn.modules.module.Module'>
+Skipping property function: all_weights in module: torch.nn.modules.rnn.RNNBase
+Observe function: register_module found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: get_submodule found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: forward found in module: <class 'torch.nn.modules.conv.Conv2d'>
+Observe function: get_parameter found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: forward found in module: <class 'torch.nn.modules.conv.Conv1d'>
+Observe function: uniform_ found in module: <module 'torch.nn.init' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/init.py'>
+Observe function: make_mask found in module: <function RandomStructured.compute_mask at 0x7f8e39ff5d80>
+Observe function: register_forward_pre_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: register_forward_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: make_mask found in module: <function LnStructured.compute_mask at 0x7f8e39ff5f30>
+Observe function: materialize found in module: <class 'torch.nn.parameter.UninitializedTensorMixin'>
+Observe function: register_state_dict_pre_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: l1_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: forward found in module: <class 'torch.nn.modules.loss.NLLLoss'>
+Observe function: state_dict found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: register_load_state_dict_post_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: load_state_dict found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: parameters found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: named_modules found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: buffers found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: named_parameters found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: named_buffers found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: modules found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: group_norm found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: compute_weight found in module: <class 'torch.nn.utils.weight_norm.WeightNorm'>
+Observe function: remove found in module: <class 'torch.nn.utils.weight_norm.WeightNorm'>
+Observe function: local_response_norm found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: reset_parameters found in module: <class 'torch.nn.modules.rnn.RNNCellBase'>
+Observe function: elu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: celu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: selu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: glu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: unfold found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: fold found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: soft_margin_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: leaky_relu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: get_buffer found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: get_extra_state found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: set_extra_state found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: apply found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: cuda found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: children found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: ipu found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: xpu found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: cross_entropy found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: cpu found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: type found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: multilabel_soft_margin_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: float found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: double found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: half found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: bfloat16 found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: to_empty found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: to found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: register_full_backward_pre_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: register_backward_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: register_full_backward_hook found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: relu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: reshape_weight_to_matrix found in module: <class 'torch.nn.utils.spectral_norm.SpectralNorm'>
+Observe function: hardswish found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: mish found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: silu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: hardsigmoid found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: get_expected_hidden_size found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: check_input found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: rrelu found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: forward found in module: <class 'torch.nn.modules.activation.Hardtanh'>
+Observe function: extra_repr found in module: <class 'torch.nn.modules.activation.Hardtanh'>
+Observe function: normalize found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: flatten_parameters found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: reset_parameters found in module: <class 'torch.nn.modules.rnn.RNNBase'>
+Observe function: lp_pool2d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: dropout1d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: poisson_nll_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: gaussian_nll_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: dropout2d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: dropout3d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: kl_div found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: alpha_dropout found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: mse_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: feature_alpha_dropout found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: named_children found in module: <class 'torch.nn.modules.module.Module'>
+Observe function: binary_cross_entropy found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: binary_cross_entropy_with_logits found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: log_softmax found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: hinge_embedding_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: multilabel_margin_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: smooth_l1_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: huber_loss found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: normal_ found in module: <module 'torch.nn.init' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/init.py'>
+Observe function: remove found in module: <class 'torch.nn.utils.prune.BasePruningMethod'>
+Observe function: embedding found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: prune found in module: <class 'torch.nn.utils.prune.BasePruningMethod'>
+Observe function: gather_map found in module: <function gather at 0x7f8ece5df7f0>
+Observe function: extra_repr found in module: <class 'torch.nn.modules.upsampling.Upsample'>
+Observe function: forward found in module: <class 'torch.nn.modules.upsampling.Upsample'>
+Observe function: values found in module: <class 'torch.nn.modules.container.ModuleDict'>
+Observe function: items found in module: <class 'torch.nn.modules.container.ModuleDict'>
+Observe function: keys found in module: <class 'torch.nn.modules.container.ModuleDict'>
+Observe function: initialize_parameters found in module: <class 'torch.nn.modules.lazy.LazyModuleMixin'>
+Observe function: pop found in module: <class 'torch.nn.modules.container.ModuleDict'>
+Observe function: clear found in module: <class 'torch.nn.modules.container.ModuleDict'>
+Observe function: update found in module: <class 'torch.nn.modules.container.ModuleDict'>
+Observe function: scatter found in module: <module 'torch.nn.parallel.scatter_gather' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py'>
+Observe function: lp_pool1d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: max_unpool3d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: max_unpool2d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: embedding_bag found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: max_unpool1d found in module: <module 'torch.nn.functional' from '/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/nn/functional.py'>
+Observe function: has_uninitialized_params found in module: <class 'torch.nn.modules.lazy.LazyModuleMixin'>
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torchvision/datasets/mnist.py:80: UserWarning: test_data has been renamed data
+  warnings.warn("test_data has been renamed data")
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torchvision/datasets/mnist.py:70: UserWarning: test_labels has been renamed targets
+  warnings.warn("test_labels has been renamed targets")
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torchvision/datasets/mnist.py:75: UserWarning: train_data has been renamed data
+  warnings.warn("train_data has been renamed data")
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/torchvision/datasets/mnist.py:65: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+Failed to get attribute num_samples of object type <class 'torch.utils.data.sampler.RandomSampler'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+logger_proxy: Proxied 2 parameters of 'model.conv1Conv2d', duration: 0.0012805275619029999 seconds
+logger_proxy: Proxied 2 parameters of 'model.conv2Conv2d', duration: 0.0012767016887664795 seconds
+logger_proxy: Proxied 2 parameters of 'model.fc1Linear', duration: 0.007362678647041321 seconds
+logger_proxy: Proxied 2 parameters of 'model.fc2Linear', duration: 0.0013224929571151733 seconds
+Failed to get attribute imag of object type <class 'traincheck.proxy_wrapper.proxy.Proxy'>, skipping it for all following dumps for this attribute.
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 6 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck-test/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+
+Test set: Average loss: 715.9741, Accuracy: 1048/10000 (10%)
+
+/home/yuxuan/gitrepos/ml-daikon/traincheck/instrumentor/dumper.py:282: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+Train Epoch: 1 [0/60000 (0%)]	Loss: 2.287546
+
+Test set: Average loss: 0.0013, Accuracy: 6529/10000 (65%)
+
+Train Epoch: 2 [0/60000 (0%)]	Loss: 1.314165
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+
+Program exited with code 0

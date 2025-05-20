@@ -1,0 +1,45 @@
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Failed to get attribute model_input_names of object type <class 'transformers.models.whisper.processing_whisper.WhisperProcessor'>, skipping it for all following dumps for this attribute.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+Using sep_token, but it is not set yet.
+Failed to get attribute num_labels of object type <class 'transformers.models.whisper.configuration_whisper.WhisperConfig'>, skipping it for all following dumps for this attribute.
+Failed to get attribute use_return_dict of object type <class 'transformers.models.whisper.configuration_whisper.WhisperConfig'>, skipping it for all following dumps for this attribute.
+Failed to get attribute device of object type <class 'transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration'>, skipping it for all following dumps for this attribute.
+Failed to get attribute device of object type <class 'transformers.models.whisper.modeling_whisper.WhisperModel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute device of object type <class 'transformers.models.whisper.modeling_whisper.WhisperEncoder'>, skipping it for all following dumps for this attribute.
+Failed to get attribute device of object type <class 'transformers.models.whisper.modeling_whisper.WhisperDecoder'>, skipping it for all following dumps for this attribute.
+Token indices sequence length is longer than the specified maximum sequence length for this model (1150 > 1024). Running this sequence through the model will result in indexing errors
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Found match for transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate
+[226]
+[27]
+[634, 575, 2780, 281, 976, 264, 14183, 337, 264, 28114, 293, 415, 2956, 2919, 356, 926, 337, 257, 636, 295, 7615, 13]
+22
+Found match for transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate
+[226]
+[26]
+[415, 575, 2780, 281, 976, 264, 14183, 337, 264, 28114, 293, 415, 2956, 2919, 356, 926, 337, 257, 636, 295, 7615]
+21
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Exception ignored in: <generator object ArchiveIterable._iter_from_urlpath at 0x7f17a6f5b370>
+Traceback (most recent call last):
+  File "/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/datasets/utils/file_utils.py", line 1339, in _iter_from_urlpath
+  File "/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/fsspec/spec.py", line 2068, in __exit__
+  File "/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/fsspec/implementations/http.py", line 759, in close
+AttributeError: 'NoneType' object has no attribute 'run_coroutine_threadsafe'
+
+Program exited with code 0

@@ -1,0 +1,396 @@
+First pass: Recursive scan of the module
+Depth: 0, Instrumenting module: WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.__init__, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Not instrumenting: _reorder_cache, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration._reorder_cache, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.forward, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: freeze_encoder, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.freeze_encoder, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: generate, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: get_decoder, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_decoder, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: get_encoder, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_encoder, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: get_output_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_output_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: prepare_inputs_for_generation, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.prepare_inputs_for_generation, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: resize_token_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.resize_token_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Instrumenting function: set_output_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.set_output_embeddings, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Depth: 0, Finished instrumenting module with 11 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration
+Files scanned /home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/transformers/models/whisper/modeling_whisper.py
+First pass instrumented 11 functions
+Second pass: Direct instrumentation of the files
+Instrumenting module transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting module: transformers.models.whisper.modeling_whisper
+Depth: 0, Not instrumenting: ACT2FN, transformers.activations.ClassInstantier, transformers.models.whisper.modeling_whisper
+Depth: 0, Recursing into class: BaseModelOutput, transformers.modeling_outputs.BaseModelOutput, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: BaseModelOutput
+Depth: 1, Instrumenting function: __init__, transformers.modeling_outputs.BaseModelOutput.__init__, transformers.modeling_outputs.BaseModelOutput
+Depth: 1, Finished instrumenting module with 1 functions wrapped: , attr not provided, transformers.modeling_outputs.BaseModelOutput
+Depth: 0, Recursing into class: BaseModelOutputWithPastAndCrossAttentions, transformers.modeling_outputs.BaseModelOutputWithPastAndCrossAttentions, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: BaseModelOutputWithPastAndCrossAttentions
+Depth: 1, Instrumenting function: __init__, transformers.modeling_outputs.BaseModelOutputWithPastAndCrossAttentions.__init__, transformers.modeling_outputs.BaseModelOutputWithPastAndCrossAttentions
+Depth: 1, Finished instrumenting module with 1 functions wrapped: , attr not provided, transformers.modeling_outputs.BaseModelOutputWithPastAndCrossAttentions
+Depth: 0, Recursing into class: PreTrainedModel, transformers.modeling_utils.PreTrainedModel, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: PreTrainedModel
+Depth: 1, Instrumenting function: __init__, transformers.modeling_utils.PreTrainedModel.__init__, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _backward_compatibility_gradient_checkpointing, transformers.modeling_utils.PreTrainedModel._backward_compatibility_gradient_checkpointing, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: _from_config, transformers.modeling_utils.PreTrainedModel._from_config, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _get_resized_embeddings, transformers.modeling_utils.PreTrainedModel._get_resized_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _get_resized_lm_head, transformers.modeling_utils.PreTrainedModel._get_resized_lm_head, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _init_weights, transformers.modeling_utils.PreTrainedModel._init_weights, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _initialize_weights, transformers.modeling_utils.PreTrainedModel._initialize_weights, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: _load_pretrained_model, transformers.modeling_utils.PreTrainedModel._load_pretrained_model, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: _load_pretrained_model_low_mem, transformers.modeling_utils.PreTrainedModel._load_pretrained_model_low_mem, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _resize_token_embeddings, transformers.modeling_utils.PreTrainedModel._resize_token_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: _set_default_torch_dtype, transformers.modeling_utils.PreTrainedModel._set_default_torch_dtype, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: _tie_encoder_decoder_weights, transformers.modeling_utils.PreTrainedModel._tie_encoder_decoder_weights, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: _tie_or_clone_weights, transformers.modeling_utils.PreTrainedModel._tie_or_clone_weights, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: can_generate, transformers.modeling_utils.PreTrainedModel.can_generate, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: disable_input_require_grads, transformers.modeling_utils.PreTrainedModel.disable_input_require_grads, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: enable_input_require_grads, transformers.modeling_utils.PreTrainedModel.enable_input_require_grads, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: float, transformers.modeling_utils.PreTrainedModel.float, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: from_pretrained, transformers.modeling_utils.PreTrainedModel.from_pretrained, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: get_input_embeddings, transformers.modeling_utils.PreTrainedModel.get_input_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: get_memory_footprint, transformers.modeling_utils.PreTrainedModel.get_memory_footprint, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: get_output_embeddings, transformers.modeling_utils.PreTrainedModel.get_output_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: get_position_embeddings, transformers.modeling_utils.PreTrainedModel.get_position_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: gradient_checkpointing_disable, transformers.modeling_utils.PreTrainedModel.gradient_checkpointing_disable, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: gradient_checkpointing_enable, transformers.modeling_utils.PreTrainedModel.gradient_checkpointing_enable, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: half, transformers.modeling_utils.PreTrainedModel.half, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: init_weights, transformers.modeling_utils.PreTrainedModel.init_weights, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: post_init, transformers.modeling_utils.PreTrainedModel.post_init, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: prune_heads, transformers.modeling_utils.PreTrainedModel.prune_heads, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: push_to_hub, transformers.utils.hub.PushToHubMixin.push_to_hub, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Not instrumenting: register_for_auto_class, transformers.modeling_utils.PreTrainedModel.register_for_auto_class, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: resize_position_embeddings, transformers.modeling_utils.PreTrainedModel.resize_position_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: resize_token_embeddings, transformers.modeling_utils.PreTrainedModel.resize_token_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: retrieve_modules_from_names, transformers.modeling_utils.PreTrainedModel.retrieve_modules_from_names, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: reverse_bettertransformer, transformers.modeling_utils.PreTrainedModel.reverse_bettertransformer, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: save_pretrained, transformers.modeling_utils.PreTrainedModel.save_pretrained, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: set_input_embeddings, transformers.modeling_utils.PreTrainedModel.set_input_embeddings, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: tie_weights, transformers.modeling_utils.PreTrainedModel.tie_weights, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: to, transformers.modeling_utils.PreTrainedModel.to, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Instrumenting function: to_bettertransformer, transformers.modeling_utils.PreTrainedModel.to_bettertransformer, transformers.modeling_utils.PreTrainedModel
+Depth: 1, Finished instrumenting module with 32 functions wrapped: , attr not provided, transformers.modeling_utils.PreTrainedModel
+Depth: 0, Recursing into class: Seq2SeqLMOutput, transformers.modeling_outputs.Seq2SeqLMOutput, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: Seq2SeqLMOutput
+Depth: 1, Instrumenting function: __init__, transformers.modeling_outputs.Seq2SeqLMOutput.__init__, transformers.modeling_outputs.Seq2SeqLMOutput
+Depth: 1, Finished instrumenting module with 1 functions wrapped: , attr not provided, transformers.modeling_outputs.Seq2SeqLMOutput
+Depth: 0, Recursing into class: Seq2SeqModelOutput, transformers.modeling_outputs.Seq2SeqModelOutput, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: Seq2SeqModelOutput
+Depth: 1, Instrumenting function: __init__, transformers.modeling_outputs.Seq2SeqModelOutput.__init__, transformers.modeling_outputs.Seq2SeqModelOutput
+Depth: 1, Finished instrumenting module with 1 functions wrapped: , attr not provided, transformers.modeling_outputs.Seq2SeqModelOutput
+Depth: 0, Recursing into class: SequenceClassifierOutput, transformers.modeling_outputs.SequenceClassifierOutput, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: SequenceClassifierOutput
+Depth: 1, Instrumenting function: __init__, transformers.modeling_outputs.SequenceClassifierOutput.__init__, transformers.modeling_outputs.SequenceClassifierOutput
+Depth: 1, Finished instrumenting module with 1 functions wrapped: , attr not provided, transformers.modeling_outputs.SequenceClassifierOutput
+Depth: 0, Recursing into class: WhisperAttention, transformers.models.whisper.modeling_whisper.WhisperAttention, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperAttention
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperAttention.__init__, transformers.models.whisper.modeling_whisper.WhisperAttention
+Depth: 1, Instrumenting function: _shape, transformers.models.whisper.modeling_whisper.WhisperAttention._shape, transformers.models.whisper.modeling_whisper.WhisperAttention
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperAttention.forward, transformers.models.whisper.modeling_whisper.WhisperAttention
+Depth: 1, Finished instrumenting module with 3 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperAttention
+Depth: 0, Recursing into class: WhisperConfig, transformers.models.whisper.configuration_whisper.WhisperConfig, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperConfig
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.configuration_whisper.WhisperConfig.__init__, transformers.models.whisper.configuration_whisper.WhisperConfig
+Depth: 1, Finished instrumenting module with 1 functions wrapped: , attr not provided, transformers.models.whisper.configuration_whisper.WhisperConfig
+Depth: 0, Recursing into class: WhisperDecoder, transformers.models.whisper.modeling_whisper.WhisperDecoder, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperDecoder
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperDecoder.__init__, transformers.models.whisper.modeling_whisper.WhisperDecoder
+Depth: 1, Instrumenting function: _prepare_decoder_attention_mask, transformers.models.whisper.modeling_whisper.WhisperDecoder._prepare_decoder_attention_mask, transformers.models.whisper.modeling_whisper.WhisperDecoder
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperDecoder.forward, transformers.models.whisper.modeling_whisper.WhisperDecoder
+Depth: 1, Instrumenting function: get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperDecoder.get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperDecoder
+Depth: 1, Instrumenting function: set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperDecoder.set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperDecoder
+Depth: 1, Finished instrumenting module with 5 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperDecoder
+Depth: 0, Recursing into class: WhisperDecoderLayer, transformers.models.whisper.modeling_whisper.WhisperDecoderLayer, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperDecoderLayer
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperDecoderLayer.__init__, transformers.models.whisper.modeling_whisper.WhisperDecoderLayer
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperDecoderLayer.forward, transformers.models.whisper.modeling_whisper.WhisperDecoderLayer
+Depth: 1, Finished instrumenting module with 2 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperDecoderLayer
+Depth: 0, Recursing into class: WhisperEncoder, transformers.models.whisper.modeling_whisper.WhisperEncoder, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperEncoder
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperEncoder.__init__, transformers.models.whisper.modeling_whisper.WhisperEncoder
+Depth: 1, Instrumenting function: _freeze_parameters, transformers.models.whisper.modeling_whisper.WhisperEncoder._freeze_parameters, transformers.models.whisper.modeling_whisper.WhisperEncoder
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperEncoder.forward, transformers.models.whisper.modeling_whisper.WhisperEncoder
+Depth: 1, Instrumenting function: get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperEncoder.get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperEncoder
+Depth: 1, Instrumenting function: set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperEncoder.set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperEncoder
+Depth: 1, Finished instrumenting module with 5 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperEncoder
+Depth: 0, Recursing into class: WhisperEncoderLayer, transformers.models.whisper.modeling_whisper.WhisperEncoderLayer, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperEncoderLayer
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperEncoderLayer.__init__, transformers.models.whisper.modeling_whisper.WhisperEncoderLayer
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperEncoderLayer.forward, transformers.models.whisper.modeling_whisper.WhisperEncoderLayer
+Depth: 1, Finished instrumenting module with 2 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperEncoderLayer
+Depth: 0, Recursing into class: WhisperForAudioClassification, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperForAudioClassification
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.__init__, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.forward, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification
+Depth: 1, Instrumenting function: freeze_encoder, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.freeze_encoder, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification
+Depth: 1, Instrumenting function: get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification
+Depth: 1, Instrumenting function: set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification
+Depth: 1, Finished instrumenting module with 5 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperForAudioClassification
+Depth: 0, Recursing into class: WhisperForConditionalGeneration, transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration, transformers.models.whisper.modeling_whisper
+Depth: 1, Skipping class: WhisperForConditionalGeneration, Reason: Already instrumented
+Depth: 0, Recursing into class: WhisperModel, transformers.models.whisper.modeling_whisper.WhisperModel, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperModel
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperModel.__init__, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: _mask_input_features, transformers.models.whisper.modeling_whisper.WhisperModel._mask_input_features, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperModel.forward, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: freeze_encoder, transformers.models.whisper.modeling_whisper.WhisperModel.freeze_encoder, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: get_decoder, transformers.models.whisper.modeling_whisper.WhisperModel.get_decoder, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: get_encoder, transformers.models.whisper.modeling_whisper.WhisperModel.get_encoder, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperModel.get_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Instrumenting function: set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperModel.set_input_embeddings, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 1, Finished instrumenting module with 8 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperModel
+Depth: 0, Recursing into class: WhisperPositionalEmbedding, transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperPositionalEmbedding
+Depth: 1, Instrumenting function: __init__, transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding.__init__, transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding
+Depth: 1, Instrumenting function: forward, transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding.forward, transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding
+Depth: 1, Finished instrumenting module with 2 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding
+Depth: 0, Recursing into class: WhisperPreTrainedModel, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperPreTrainedModel
+Depth: 1, Instrumenting function: _get_feat_extract_output_lengths, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._get_feat_extract_output_lengths, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel
+Depth: 1, Instrumenting function: _init_weights, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._init_weights, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel
+Depth: 1, Instrumenting function: _set_gradient_checkpointing, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._set_gradient_checkpointing, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel
+Depth: 1, Recursing into class: config_class, transformers.models.whisper.configuration_whisper.WhisperConfig, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel
+Depth: 2, Skipping class: WhisperConfig, Reason: Already instrumented
+Depth: 1, Finished instrumenting module with 3 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel
+Depth: 0, Recursing into class: WhisperTimeStampLogitsProcessor, transformers.generation.logits_process.WhisperTimeStampLogitsProcessor, transformers.models.whisper.modeling_whisper
+Depth: 1, Instrumenting module: WhisperTimeStampLogitsProcessor
+Depth: 1, Instrumenting function: __call__, transformers.generation.logits_process.WhisperTimeStampLogitsProcessor.__call__, transformers.generation.logits_process.WhisperTimeStampLogitsProcessor
+Depth: 1, Instrumenting function: __init__, transformers.generation.logits_process.WhisperTimeStampLogitsProcessor.__init__, transformers.generation.logits_process.WhisperTimeStampLogitsProcessor
+Depth: 1, Finished instrumenting module with 2 functions wrapped: , attr not provided, transformers.generation.logits_process.WhisperTimeStampLogitsProcessor
+Depth: 0, Instrumenting function: _compute_mask_indices, transformers.models.whisper.modeling_whisper._compute_mask_indices, transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting function: _expand_mask, transformers.models.whisper.modeling_whisper._expand_mask, transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting function: _make_causal_mask, transformers.models.whisper.modeling_whisper._make_causal_mask, transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting function: add_start_docstrings, transformers.utils.doc.add_start_docstrings, transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting function: add_start_docstrings_to_model_forward, transformers.utils.doc.add_start_docstrings_to_model_forward, transformers.models.whisper.modeling_whisper
+Depth: 0, Not instrumenting: logging, transformers.utils.logging, transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting function: replace_return_docstrings, transformers.utils.doc.replace_return_docstrings, transformers.models.whisper.modeling_whisper
+Depth: 0, Instrumenting function: shift_tokens_right, transformers.models.whisper.modeling_whisper.shift_tokens_right, transformers.models.whisper.modeling_whisper
+Depth: 0, Finished instrumenting module with 82 functions wrapped: , attr not provided, transformers.models.whisper.modeling_whisper
+Second pass instrumented 82 functions
+Functions instrumented with trace dumping enabled:
+transformers.generation.logits_process.WhisperTimeStampLogitsProcessor.__call__
+transformers.generation.logits_process.WhisperTimeStampLogitsProcessor.__init__
+transformers.modeling_outputs.BaseModelOutput.__init__
+transformers.modeling_outputs.BaseModelOutputWithPastAndCrossAttentions.__init__
+transformers.modeling_outputs.Seq2SeqLMOutput.__init__
+transformers.modeling_outputs.Seq2SeqModelOutput.__init__
+transformers.modeling_outputs.SequenceClassifierOutput.__init__
+transformers.modeling_utils.PreTrainedModel.__init__
+transformers.modeling_utils.PreTrainedModel._backward_compatibility_gradient_checkpointing
+transformers.modeling_utils.PreTrainedModel._get_resized_embeddings
+transformers.modeling_utils.PreTrainedModel._get_resized_lm_head
+transformers.modeling_utils.PreTrainedModel._init_weights
+transformers.modeling_utils.PreTrainedModel._initialize_weights
+transformers.modeling_utils.PreTrainedModel._resize_token_embeddings
+transformers.modeling_utils.PreTrainedModel._tie_or_clone_weights
+transformers.modeling_utils.PreTrainedModel.can_generate
+transformers.modeling_utils.PreTrainedModel.disable_input_require_grads
+transformers.modeling_utils.PreTrainedModel.enable_input_require_grads
+transformers.modeling_utils.PreTrainedModel.float
+transformers.modeling_utils.PreTrainedModel.get_input_embeddings
+transformers.modeling_utils.PreTrainedModel.get_memory_footprint
+transformers.modeling_utils.PreTrainedModel.get_output_embeddings
+transformers.modeling_utils.PreTrainedModel.get_position_embeddings
+transformers.modeling_utils.PreTrainedModel.gradient_checkpointing_disable
+transformers.modeling_utils.PreTrainedModel.gradient_checkpointing_enable
+transformers.modeling_utils.PreTrainedModel.half
+transformers.modeling_utils.PreTrainedModel.init_weights
+transformers.modeling_utils.PreTrainedModel.post_init
+transformers.modeling_utils.PreTrainedModel.prune_heads
+transformers.modeling_utils.PreTrainedModel.resize_position_embeddings
+transformers.modeling_utils.PreTrainedModel.resize_token_embeddings
+transformers.modeling_utils.PreTrainedModel.retrieve_modules_from_names
+transformers.modeling_utils.PreTrainedModel.reverse_bettertransformer
+transformers.modeling_utils.PreTrainedModel.save_pretrained
+transformers.modeling_utils.PreTrainedModel.set_input_embeddings
+transformers.modeling_utils.PreTrainedModel.tie_weights
+transformers.modeling_utils.PreTrainedModel.to
+transformers.modeling_utils.PreTrainedModel.to_bettertransformer
+transformers.models.whisper.configuration_whisper.WhisperConfig.__init__
+transformers.models.whisper.modeling_whisper.WhisperAttention.__init__
+transformers.models.whisper.modeling_whisper.WhisperAttention._shape
+transformers.models.whisper.modeling_whisper.WhisperAttention.forward
+transformers.models.whisper.modeling_whisper.WhisperDecoder.__init__
+transformers.models.whisper.modeling_whisper.WhisperDecoder._prepare_decoder_attention_mask
+transformers.models.whisper.modeling_whisper.WhisperDecoder.forward
+transformers.models.whisper.modeling_whisper.WhisperDecoder.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperDecoder.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperDecoderLayer.__init__
+transformers.models.whisper.modeling_whisper.WhisperDecoderLayer.forward
+transformers.models.whisper.modeling_whisper.WhisperEncoder.__init__
+transformers.models.whisper.modeling_whisper.WhisperEncoder._freeze_parameters
+transformers.models.whisper.modeling_whisper.WhisperEncoder.forward
+transformers.models.whisper.modeling_whisper.WhisperEncoder.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperEncoder.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperEncoderLayer.__init__
+transformers.models.whisper.modeling_whisper.WhisperEncoderLayer.forward
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.__init__
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.forward
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.freeze_encoder
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.__init__
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.forward
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.freeze_encoder
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_decoder
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_encoder
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_output_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.prepare_inputs_for_generation
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.resize_token_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.set_output_embeddings
+transformers.models.whisper.modeling_whisper.WhisperModel.__init__
+transformers.models.whisper.modeling_whisper.WhisperModel._mask_input_features
+transformers.models.whisper.modeling_whisper.WhisperModel.forward
+transformers.models.whisper.modeling_whisper.WhisperModel.freeze_encoder
+transformers.models.whisper.modeling_whisper.WhisperModel.get_decoder
+transformers.models.whisper.modeling_whisper.WhisperModel.get_encoder
+transformers.models.whisper.modeling_whisper.WhisperModel.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperModel.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding.__init__
+transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding.forward
+transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._get_feat_extract_output_lengths
+transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._init_weights
+transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._set_gradient_checkpointing
+transformers.models.whisper.modeling_whisper._compute_mask_indices
+transformers.models.whisper.modeling_whisper._expand_mask
+transformers.models.whisper.modeling_whisper._make_causal_mask
+transformers.models.whisper.modeling_whisper.shift_tokens_right
+transformers.utils.doc.add_start_docstrings
+transformers.utils.doc.add_start_docstrings_to_model_forward
+transformers.utils.doc.replace_return_docstrings
+transformers.utils.hub.PushToHubMixin.push_to_hub
+Functions instrumented with trace dumping disabled:
+
+First pass: Recursive scan of the module
+Depth: 0, Instrumenting module: WhisperProcessor
+Depth: 0, Instrumenting function: __call__, transformers.models.whisper.processing_whisper.WhisperProcessor.__call__, transformers.models.whisper.processing_whisper.WhisperProcessor
+Depth: 0, Instrumenting function: __init__, transformers.models.whisper.processing_whisper.WhisperProcessor.__init__, transformers.models.whisper.processing_whisper.WhisperProcessor
+Depth: 0, Instrumenting function: batch_decode, transformers.models.whisper.processing_whisper.WhisperProcessor.batch_decode, transformers.models.whisper.processing_whisper.WhisperProcessor
+Depth: 0, Instrumenting function: decode, transformers.models.whisper.processing_whisper.WhisperProcessor.decode, transformers.models.whisper.processing_whisper.WhisperProcessor
+Depth: 0, Instrumenting function: get_decoder_prompt_ids, transformers.models.whisper.processing_whisper.WhisperProcessor.get_decoder_prompt_ids, transformers.models.whisper.processing_whisper.WhisperProcessor
+Depth: 0, Instrumenting function: get_prompt_ids, transformers.models.whisper.processing_whisper.WhisperProcessor.get_prompt_ids, transformers.models.whisper.processing_whisper.WhisperProcessor
+Depth: 0, Finished instrumenting module with 6 functions wrapped: , attr not provided, transformers.models.whisper.processing_whisper.WhisperProcessor
+Files scanned /home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/transformers/models/whisper/processing_whisper.py
+First pass instrumented 6 functions
+Second pass: Direct instrumentation of the files
+Instrumenting module transformers.models.whisper.processing_whisper
+Depth: 0, Instrumenting module: transformers.models.whisper.processing_whisper
+Depth: 0, Recursing into class: ProcessorMixin, transformers.processing_utils.ProcessorMixin, transformers.models.whisper.processing_whisper
+Depth: 1, Instrumenting module: ProcessorMixin
+Depth: 1, Instrumenting function: __init__, transformers.processing_utils.ProcessorMixin.__init__, transformers.processing_utils.ProcessorMixin
+Depth: 1, Not instrumenting: _get_arguments_from_pretrained, transformers.processing_utils.ProcessorMixin._get_arguments_from_pretrained, transformers.processing_utils.ProcessorMixin
+Depth: 1, Not instrumenting: from_pretrained, transformers.processing_utils.ProcessorMixin.from_pretrained, transformers.processing_utils.ProcessorMixin
+Depth: 1, Instrumenting function: push_to_hub, transformers.utils.hub.PushToHubMixin.push_to_hub, transformers.processing_utils.ProcessorMixin
+Depth: 1, Not instrumenting: register_for_auto_class, transformers.processing_utils.ProcessorMixin.register_for_auto_class, transformers.processing_utils.ProcessorMixin
+Depth: 1, Instrumenting function: save_pretrained, transformers.processing_utils.ProcessorMixin.save_pretrained, transformers.processing_utils.ProcessorMixin
+Depth: 1, Finished instrumenting module with 3 functions wrapped: , attr not provided, transformers.processing_utils.ProcessorMixin
+Depth: 0, Recursing into class: WhisperProcessor, transformers.models.whisper.processing_whisper.WhisperProcessor, transformers.models.whisper.processing_whisper
+Depth: 1, Skipping class: WhisperProcessor, Reason: Already instrumented
+Depth: 0, Finished instrumenting module with 3 functions wrapped: , attr not provided, transformers.models.whisper.processing_whisper
+Second pass instrumented 3 functions
+Functions instrumented with trace dumping enabled:
+transformers.generation.logits_process.WhisperTimeStampLogitsProcessor.__call__
+transformers.generation.logits_process.WhisperTimeStampLogitsProcessor.__init__
+transformers.modeling_outputs.BaseModelOutput.__init__
+transformers.modeling_outputs.BaseModelOutputWithPastAndCrossAttentions.__init__
+transformers.modeling_outputs.Seq2SeqLMOutput.__init__
+transformers.modeling_outputs.Seq2SeqModelOutput.__init__
+transformers.modeling_outputs.SequenceClassifierOutput.__init__
+transformers.modeling_utils.PreTrainedModel.__init__
+transformers.modeling_utils.PreTrainedModel._backward_compatibility_gradient_checkpointing
+transformers.modeling_utils.PreTrainedModel._get_resized_embeddings
+transformers.modeling_utils.PreTrainedModel._get_resized_lm_head
+transformers.modeling_utils.PreTrainedModel._init_weights
+transformers.modeling_utils.PreTrainedModel._initialize_weights
+transformers.modeling_utils.PreTrainedModel._resize_token_embeddings
+transformers.modeling_utils.PreTrainedModel._tie_or_clone_weights
+transformers.modeling_utils.PreTrainedModel.can_generate
+transformers.modeling_utils.PreTrainedModel.disable_input_require_grads
+transformers.modeling_utils.PreTrainedModel.enable_input_require_grads
+transformers.modeling_utils.PreTrainedModel.float
+transformers.modeling_utils.PreTrainedModel.get_input_embeddings
+transformers.modeling_utils.PreTrainedModel.get_memory_footprint
+transformers.modeling_utils.PreTrainedModel.get_output_embeddings
+transformers.modeling_utils.PreTrainedModel.get_position_embeddings
+transformers.modeling_utils.PreTrainedModel.gradient_checkpointing_disable
+transformers.modeling_utils.PreTrainedModel.gradient_checkpointing_enable
+transformers.modeling_utils.PreTrainedModel.half
+transformers.modeling_utils.PreTrainedModel.init_weights
+transformers.modeling_utils.PreTrainedModel.post_init
+transformers.modeling_utils.PreTrainedModel.prune_heads
+transformers.modeling_utils.PreTrainedModel.resize_position_embeddings
+transformers.modeling_utils.PreTrainedModel.resize_token_embeddings
+transformers.modeling_utils.PreTrainedModel.retrieve_modules_from_names
+transformers.modeling_utils.PreTrainedModel.reverse_bettertransformer
+transformers.modeling_utils.PreTrainedModel.save_pretrained
+transformers.modeling_utils.PreTrainedModel.set_input_embeddings
+transformers.modeling_utils.PreTrainedModel.tie_weights
+transformers.modeling_utils.PreTrainedModel.to
+transformers.modeling_utils.PreTrainedModel.to_bettertransformer
+transformers.models.whisper.configuration_whisper.WhisperConfig.__init__
+transformers.models.whisper.modeling_whisper.WhisperAttention.__init__
+transformers.models.whisper.modeling_whisper.WhisperAttention._shape
+transformers.models.whisper.modeling_whisper.WhisperAttention.forward
+transformers.models.whisper.modeling_whisper.WhisperDecoder.__init__
+transformers.models.whisper.modeling_whisper.WhisperDecoder._prepare_decoder_attention_mask
+transformers.models.whisper.modeling_whisper.WhisperDecoder.forward
+transformers.models.whisper.modeling_whisper.WhisperDecoder.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperDecoder.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperDecoderLayer.__init__
+transformers.models.whisper.modeling_whisper.WhisperDecoderLayer.forward
+transformers.models.whisper.modeling_whisper.WhisperEncoder.__init__
+transformers.models.whisper.modeling_whisper.WhisperEncoder._freeze_parameters
+transformers.models.whisper.modeling_whisper.WhisperEncoder.forward
+transformers.models.whisper.modeling_whisper.WhisperEncoder.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperEncoder.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperEncoderLayer.__init__
+transformers.models.whisper.modeling_whisper.WhisperEncoderLayer.forward
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.__init__
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.forward
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.freeze_encoder
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForAudioClassification.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.__init__
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.forward
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.freeze_encoder
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.generate
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_decoder
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_encoder
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.get_output_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.prepare_inputs_for_generation
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.resize_token_embeddings
+transformers.models.whisper.modeling_whisper.WhisperForConditionalGeneration.set_output_embeddings
+transformers.models.whisper.modeling_whisper.WhisperModel.__init__
+transformers.models.whisper.modeling_whisper.WhisperModel._mask_input_features
+transformers.models.whisper.modeling_whisper.WhisperModel.forward
+transformers.models.whisper.modeling_whisper.WhisperModel.freeze_encoder
+transformers.models.whisper.modeling_whisper.WhisperModel.get_decoder
+transformers.models.whisper.modeling_whisper.WhisperModel.get_encoder
+transformers.models.whisper.modeling_whisper.WhisperModel.get_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperModel.set_input_embeddings
+transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding.__init__
+transformers.models.whisper.modeling_whisper.WhisperPositionalEmbedding.forward
+transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._get_feat_extract_output_lengths
+transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._init_weights
+transformers.models.whisper.modeling_whisper.WhisperPreTrainedModel._set_gradient_checkpointing
+transformers.models.whisper.modeling_whisper._compute_mask_indices
+transformers.models.whisper.modeling_whisper._expand_mask
+transformers.models.whisper.modeling_whisper._make_causal_mask
+transformers.models.whisper.modeling_whisper.shift_tokens_right
+transformers.models.whisper.processing_whisper.WhisperProcessor.__call__
+transformers.models.whisper.processing_whisper.WhisperProcessor.__init__
+transformers.models.whisper.processing_whisper.WhisperProcessor.batch_decode
+transformers.models.whisper.processing_whisper.WhisperProcessor.decode
+transformers.models.whisper.processing_whisper.WhisperProcessor.get_decoder_prompt_ids
+transformers.models.whisper.processing_whisper.WhisperProcessor.get_prompt_ids
+transformers.processing_utils.ProcessorMixin.__init__
+transformers.processing_utils.ProcessorMixin.save_pretrained
+transformers.utils.doc.add_start_docstrings
+transformers.utils.doc.add_start_docstrings_to_model_forward
+transformers.utils.doc.replace_return_docstrings
+transformers.utils.hub.PushToHubMixin.push_to_hub
+transformers.utils.hub.PushToHubMixin.push_to_hub
+Functions instrumented with trace dumping disabled:
+

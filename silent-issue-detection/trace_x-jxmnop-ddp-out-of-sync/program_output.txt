@@ -1,0 +1,135 @@
+[2025-05-18 14:21:31,321] torch.distributed.run: [WARNING] 
+[2025-05-18 14:21:31,321] torch.distributed.run: [WARNING] *****************************************
+[2025-05-18 14:21:31,321] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2025-05-18 14:21:31,321] torch.distributed.run: [WARNING] *****************************************
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+max_steps is given, it will override any value given in num_train_epochs
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute num_samples of object type <class 'torch.utils.data.sampler.RandomSampler'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute num_samples of object type <class 'accelerate.data_loader.SeedableRandomSampler'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+max_steps is given, it will override any value given in num_train_epochs
+Failed to get attribute name of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute source of object type <class 'torch._guards.Guard'>, skipping it for all following dumps for this attribute.
+Failed to get attribute namespace of object type <class 'torch._ops.HigherOrderOperator'>, skipping it for all following dumps for this attribute.
+Failed to get attribute base_version of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute dev of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute epoch of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_devrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_postrelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_prerelease of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute local of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute major of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute micro of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute minor of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute post of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute pre of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute public of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute release of object type <class 'torch._vendor.packaging.version.Version'>, skipping it for all following dumps for this attribute.
+Failed to get attribute num_samples of object type <class 'torch.utils.data.sampler.RandomSampler'>, skipping it for all following dumps for this attribute.
+Failed to get attribute multiprocessing_context of object type <class 'torch.utils.data.dataloader.DataLoader'>, skipping it for all following dumps for this attribute.
+Failed to get attribute num_samples of object type <class 'accelerate.data_loader.SeedableRandomSampler'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_device of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+Failed to get attribute join_process_group of object type <class 'torch.nn.parallel.distributed.DistributedDataParallel'>, skipping it for all following dumps for this attribute.
+  0%|          | 0/10 [00:00<?, ?it/s]/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/traincheck/instrumentor/dumper.py:282: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/traincheck/instrumentor/dumper.py:282: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  attr = getattr(obj, attr_name, NOT_FOUND)
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 48 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 48 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+Rank 1 | Loss: 12.462153434753418
+Rank 0 | Loss: 11.408798217773438
+ 10%|█         | 1/10 [00:06<00:57,  6.39s/it]Rank 0 | Loss: 3.7645821571350098
+Rank 1 | Loss: 3.345076322555542
+ 20%|██        | 2/10 [00:09<00:37,  4.73s/it]Rank 0 | Loss: 3.936642646789551
+Rank 1 | Loss: 2.2629551887512207
+ 30%|███       | 3/10 [00:13<00:28,  4.04s/it]Rank 0 | Loss: 2.0071446895599365
+Rank 1 | Loss: 2.9274513721466064
+ 40%|████      | 4/10 [00:16<00:23,  3.85s/it]Rank 0 | Loss: 1.8718340396881104
+Rank 1 | Loss: 2.7359347343444824
+ 50%|█████     | 5/10 [00:20<00:18,  3.66s/it]Rank 1 | Loss: 2.325237512588501
+Rank 0 | Loss: 2.0155351161956787
+ 60%|██████    | 6/10 [00:24<00:15,  3.95s/it]Rank 1 | Loss: 1.7996430397033691
+Rank 0 | Loss: 1.6452736854553223
+ 70%|███████   | 7/10 [00:27<00:11,  3.69s/it]Rank 0 | Loss: 2.4179182052612305
+Rank 1 | Loss: 2.3384599685668945
+ 80%|████████  | 8/10 [00:31<00:07,  3.63s/it]Rank 0 | Loss: 1.7790603637695312
+Rank 1 | Loss: 2.4640865325927734
+ 90%|█████████ | 9/10 [00:34<00:03,  3.48s/it]Rank 0 | Loss: 2.1475605964660645
+Rank 1 | Loss: 1.5658308267593384
+100%|██████████| 10/10 [00:37<00:00,  3.50s/it]                                               {'loss': 3.3611, 'grad_norm': 90.41275787353516, 'learning_rate': 0.0, 'epoch': 0.03}
+100%|██████████| 10/10 [00:37<00:00,  3.50s/it]/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/traincheck/instrumentor/tracer.py:430: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return global_wrapper(  # the wrapper cannot be invoked with named parameters as *args has to be after the named parameters
+Failed to get attribute device of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute filename of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_cuda of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_hpu of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/traincheck/instrumentor/tracer.py:430: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return global_wrapper(  # the wrapper cannot be invoked with named parameters as *args has to be after the named parameters
+Failed to get attribute device of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute filename of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_cuda of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+Failed to get attribute is_hpu of object type <class 'torch.storage.TypedStorage'>, skipping it for all following dumps for this attribute.
+                                               {'train_runtime': 45.4314, 'train_samples_per_second': 3.522, 'train_steps_per_second': 0.22, 'train_loss': 3.361058807373047, 'epoch': 0.03}
+100%|██████████| 10/10 [00:45<00:00,  3.50s/it]Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+100%|██████████| 10/10 [00:45<00:00,  4.54s/it]
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+
+Program exited with code 0

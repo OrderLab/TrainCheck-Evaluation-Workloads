@@ -1,0 +1,16 @@
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:359: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
+  warnings.warn(
+Failed to get attribute namespace of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute op of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute overloadpacket of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute tags of object type <class 'torch._ops.OpOverload'>, skipping it for all following dumps for this attribute.
+Failed to get attribute num_labels of object type <class 'transformers.models.gpt2.configuration_gpt2.GPT2Config'>, skipping it for all following dumps for this attribute.
+Failed to get attribute use_return_dict of object type <class 'transformers.models.gpt2.configuration_gpt2.GPT2Config'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+
+Program exited with code 0

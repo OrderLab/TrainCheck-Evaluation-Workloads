@@ -1,0 +1,136 @@
+Recursion detected when converting object to dict. Probably due to a issue in the __getattr__ method of the object. Object type: <class 'transformers.utils.import_utils._LazyModule'>.
+Recursion detected when converting object to dict. Probably due to a issue in the __getattr__ method of the object. Object type: <class 'transformers.utils.import_utils._LazyModule'>.
+Recursion detected when converting object to dict. Probably due to a issue in the __getattr__ method of the object. Object type: <class 'transformers.utils.import_utils._LazyModule'>.
+Recursion detected when converting object to dict. Probably due to a issue in the __getattr__ method of the object. Object type: <class 'transformers.utils.import_utils._LazyModule'>.
+Recursion detected when converting object to dict. Probably due to a issue in the __getattr__ method of the object. Object type: <class 'transformers.utils.import_utils._LazyModule'>.
+Recursion detected when converting object to dict. Probably due to a issue in the __getattr__ method of the object. Object type: <class 'transformers.utils.import_utils._LazyModule'>.
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/transformers/deepspeed.py:24: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+loading configuration file config.json from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/config.json
+Model config M2M100Config {
+  "_name_or_path": "hf_models/m2m100_418M",
+  "activation_dropout": 0.0,
+  "activation_function": "relu",
+  "architectures": [
+    "M2M100ForConditionalGeneration"
+  ],
+  "attention_dropout": 0.1,
+  "bos_token_id": 0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.05,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "early_stopping": true,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.05,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "max_length": 200,
+  "max_position_embeddings": 1024,
+  "model_type": "m2m_100",
+  "num_beams": 5,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "scale_embedding": true,
+  "transformers_version": "4.45.0",
+  "use_cache": true,
+  "vocab_size": 128112
+}
+
+loading weights file pytorch_model.bin from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/pytorch_model.bin
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in M2M100ForConditionalGeneration is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "early_stopping": true,
+  "eos_token_id": 2,
+  "max_length": 200,
+  "num_beams": 5,
+  "pad_token_id": 1
+}
+
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in M2M100Model is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in M2M100Encoder is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in M2M100Decoder is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Attention with Flash Attention 2 does not support `layer_head_mask`. If you need this feature, please use standard attention.
+All model checkpoint weights were used when initializing M2M100ForConditionalGeneration.
+
+All the weights of M2M100ForConditionalGeneration were initialized from the model checkpoint at facebook/m2m100_418M.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use M2M100ForConditionalGeneration for predictions without further training.
+loading configuration file generation_config.json from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/generation_config.json
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "early_stopping": true,
+  "eos_token_id": 2,
+  "max_length": 200,
+  "num_beams": 5,
+  "pad_token_id": 1
+}
+
+loading file vocab.json from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/vocab.json
+loading file sentencepiece.bpe.model from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/sentencepiece.bpe.model
+loading file tokenizer_config.json from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/tokenizer_config.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/special_tokens_map.json
+loading file tokenizer.json from cache at None
+loading configuration file config.json from cache at /home/yuxuan/.cache/huggingface/hub/models--facebook--m2m100_418M/snapshots/55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636/config.json
+Model config M2M100Config {
+  "_name_or_path": "facebook/m2m100_418M",
+  "activation_dropout": 0.0,
+  "activation_function": "relu",
+  "architectures": [
+    "M2M100ForConditionalGeneration"
+  ],
+  "attention_dropout": 0.1,
+  "bos_token_id": 0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.05,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "early_stopping": true,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.05,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "max_length": 200,
+  "max_position_embeddings": 1024,
+  "model_type": "m2m_100",
+  "num_beams": 5,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "scale_embedding": true,
+  "transformers_version": "4.45.0",
+  "use_cache": true,
+  "vocab_size": 128112
+}
+
+/home/yuxuan/miniconda3/envs/traincheck/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+attention_implementations: flash_attention_2
+Failed to get attribute imag of object type <class 'torch.nn.parameter.Parameter'>, skipping it for all following dumps for this attribute.
+Failed to get attribute imag of object type <class 'torch.Tensor'>, skipping it for all following dumps for this attribute.
+Confirmed: FlashAttention2 was used during the forward pass.
+Bug exposed: Outputs vary across runs in evaluation mode due to dropout not being disabled!
+Main thread has finished or encountered an exception
+Flushing all buffers to the trace log file
+Trace dumper thread has stopped.
+Trace dumper thread has finished normally...
+
+Program exited with code 0
