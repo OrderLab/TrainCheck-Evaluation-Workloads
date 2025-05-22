@@ -18,6 +18,9 @@ def get_fp_results(result_folders):
 
     all_fp_rates = []
     for folder in result_folders:
+        complete_path = os.path.join(global_parent_dir, folder)
+        if not os.path.exists(complete_path):
+            continue
         files_in_folder = os.listdir(os.path.join(global_parent_dir, folder))
         inv_file = "invariants.json"
         invs = read_inv_file(os.path.join(global_parent_dir, folder, inv_file))
@@ -53,6 +56,9 @@ if __name__ == "__main__":
     avg_fp_rates = []
     for setup, checker_results in setup_to_checker_results.items():
         fp_rate = get_fp_results(checker_results)
+        if len(fp_rate) == 0:
+            print(f"Warning: No results found for {setup}")
+            continue
         print(f"FP rates for {setup} on different validation programs: {fp_rate}")
         avg_fp_rates.append({
             "setup": f"{len(setup)}-input",
